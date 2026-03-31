@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\github\miun\algoritmer_struktur\labb_1\labb_1\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\github\miun\algoritmer_struktur\labb_1\labb_1\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\github\miun\algoritmer_struktur\labb_1\labb_1\main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\github\miun\algoritmer_struktur\labb_1\labb_1\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  labb_1.vcxproj -> C:\github\miun\algoritmer_struktur\labb_1\labb_1\x64\Debug\labb_1.exe
