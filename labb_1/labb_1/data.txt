@@ -166,3 +166,4 @@ M 47 D025
 47 28 94.81 [Campus D. En labyrint av automatiska dörrar]
 28 10 156.16 [Grönborgsgatan]
 10 28 156.16 [Grönborgsgatan]
+3 19 92.03 [Stängd Pizzeria]
