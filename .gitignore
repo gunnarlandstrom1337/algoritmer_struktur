@@ -3,6 +3,17 @@
 *.pbd
 *.json
 *.swp
+*.vsxproj
+*.user
+*.filters
+*.sln
+*.tlog
+*.recipe
+*.ilk
+*.log
+*.obj
+*.lastbuildstate
+*.idb
 *.*~
 xampp/
 project.lock.json
