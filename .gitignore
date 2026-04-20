@@ -3,7 +3,7 @@
 *.pbd
 *.json
 *.swp
-*.vsxproj
+*.vcxproj
 *.user
 *.filters
 *.sln
