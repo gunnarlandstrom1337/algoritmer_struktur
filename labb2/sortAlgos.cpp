@@ -1,60 +1,85 @@
 #include "sortAlgos.h"
 #include <algorithm>
-#include <iostream>
+#include <iterator>
 
-void sortAlgos::quickSortPartition(iterator first, iterator last)
+void quickSortPartition(iterator first, iterator last)
 {
 	iterator mid;
 	while (first != last) {
 		mid = partition(first, last);
-		quickSortPartition(mid+1, last);
+		quickSortPartition(mid + 1, last);
 		last = mid;
 	}
-
 }
 
-iterator sortAlgos::partition(iterator first, iterator last) {
+iterator partition(iterator first, iterator last) {
 
-	auto const pivot = last-1;
+	auto const pivot = last - 1;
 	auto highSearch = first;
-	auto lowSearch = last - 2;
-	if (first == lowSearch) return first;
+	auto lowSearch = pivot - 1;
 
 	while (highSearch < lowSearch) {
-			std::cout << "This is Pivot value: " << *pivot << std::endl;
-		if (*highSearch < *pivot){
-			std::cout << "This is HighPointer value: " << *highSearch << std::endl;
+		while (*highSearch <= *pivot && highSearch != pivot - 1) {
 			highSearch++;
-			continue;
 		}
-		if (*lowSearch > *pivot) {
-			std::cout << "This is LowPointer value: " << *lowSearch << std::endl;
+		while (*lowSearch >= *pivot && lowSearch != highSearch) {
 			lowSearch--;
-			continue;
 		}
-		
+		if (highSearch >= lowSearch) break;
 		std::iter_swap(highSearch, lowSearch);
+		highSearch++;
 	}
+
+	if (*highSearch < *pivot) return pivot;
 	std::iter_swap(highSearch, pivot);
-	return pivot;
+
+	return highSearch;
 }
 
-
-
-void sortAlgos::quickSortMedian(iterator first, iterator last)
+void medianOfThree(iterator first, iterator last)
 {
+	iterator lowValue = first;
+	iterator medianValue;
+	iterator highValue = last - 1;
+	int tempValue = std::distance(first, last) / 2;
+
+	medianValue = first + tempValue;
+
+	if (*medianValue < *lowValue) { 
+		std::iter_swap(lowValue, medianValue);
+	}
+	if (*highValue < *lowValue) {
+		std::iter_swap(highValue, lowValue);
+	}
+	if (*medianValue < *highValue) {
+		std::iter_swap(medianValue, highValue);
+	}
 }
 
-void sortAlgos::insertionSort(iterator first, iterator last)
+
+
+void quickSortMedian(iterator first, iterator last)
+{
+
+	iterator mid;
+	while (first != last) {
+		medianOfThree(first, last);
+		mid = partition(first, last);
+		quickSortMedian(mid + 1, last);
+		last = mid;
+	}
+}
+
+void insertionSort(iterator first, iterator last)
 {
 	if (first == last) {
 		return;
 	}
-	iterator currentIterator = first+1;
+	iterator currentIterator = first + 1;
 
 	while (currentIterator != last) {
 
-		if (*currentIterator < *(currentIterator-1)) {
+		if (*currentIterator < *(currentIterator - 1)) {
 			auto tempValue = *currentIterator;
 			*currentIterator = *(currentIterator - 1);
 			iterator insertionIterator = currentIterator - 1;
@@ -74,21 +99,18 @@ void sortAlgos::insertionSort(iterator first, iterator last)
 	}
 }
 
-void sortAlgos::selectionSort(iterator first, iterator last)
+void selectionSort(iterator first, iterator last)
 {
-
-
-	while (first != last){
-
+	while (first != last) {
 		iterator minIdx = first;
-		iterator tempIterator = first+1;
-		while(tempIterator != last) {
+		iterator tempIterator = first + 1;
+		while (tempIterator != last) {
 			if (*tempIterator < *minIdx) {
 				minIdx = tempIterator;
 			}
 			tempIterator++;
 		}
-		std::iter_swap(first,minIdx);
+		std::iter_swap(first, minIdx);
 		first++;
 	}
 }

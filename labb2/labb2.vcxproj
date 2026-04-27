@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="generatingNumbers.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sortAlgos.cpp" />
+    <ClCompile Include="timeCheck.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="generatingNumbers.h" />
     <ClInclude Include="sortAlgos.h" />
+    <ClInclude Include="timeCheck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
