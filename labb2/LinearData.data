@@ -1,0 +1,3001 @@
+N:		T[ms]		Stdev[ms]	  Samples 
+20000		0.00758		0.000460435		5	InsertionSort - Ascending
+
+20000		0.0079		0.000141421		5	InsertionSort - Constant
+
+20000		0.1545		0.0254007		5	QuickSort MoT - Ascending
+
+20000		0.14184		0.00406116		5	QuickSort MoT - Descending
+
+20000		0.09546		0.01065		5	Std::sort - Ascending
+
+20000		0.01074		0.000114018		5	Std::sort - Constant
+
+40000		0.01412		0.000319374		5	InsertionSort - Ascending
+
+40000		0.01524		0.000901665		5	InsertionSort - Constant
+
+40000		0.28972		0.0140156		5	QuickSort MoT - Ascending
+
+40000		0.38816		0.052838		5	QuickSort MoT - Descending
+
+40000		0.19134		0.00300716		5	Std::sort - Ascending
+
+40000		0.02096		0.000658027		5	Std::sort - Constant
+
+60000		0.02494		0.00670358		5	InsertionSort - Ascending
+
+60000		0.02204		0.00135019		5	InsertionSort - Constant
+
+60000		0.44628		0.0183022		5	QuickSort MoT - Ascending
+
+60000		0.48822		0.0323943		5	QuickSort MoT - Descending
+
+60000		0.29092		0.0292869		5	Std::sort - Ascending
+
+60000		0.03054		0.00143457		5	Std::sort - Constant
+
+80000		0.02844		0.00125618		5	InsertionSort - Ascending
+
+80000		0.04494		0.00522188		5	InsertionSort - Constant
+
+80000		0.60388		0.0119125		5	QuickSort MoT - Ascending
+
+80000		0.6809		0.0792506		5	QuickSort MoT - Descending
+
+80000		0.4159		0.0198932		5	Std::sort - Ascending
+
+80000		0.0549		0.00695989		5	Std::sort - Constant
+
+100000		0.04878		0.00998634		5	InsertionSort - Ascending
+
+100000		0.04414		0.00575873		5	InsertionSort - Constant
+
+100000		0.94484		0.108303		5	QuickSort MoT - Ascending
+
+100000		0.96402		0.186402		5	QuickSort MoT - Descending
+
+100000		0.7075		0.160024		5	Std::sort - Ascending
+
+100000		0.05804		0.00477996		5	Std::sort - Constant
+
+120000		0.06064		0.0160461		5	InsertionSort - Ascending
+
+120000		0.05594		0.0176319		5	InsertionSort - Constant
+
+120000		1.57442		0.485457		5	QuickSort MoT - Ascending
+
+120000		1.2853		0.141573		5	QuickSort MoT - Descending
+
+120000		1.01134		0.216175		5	Std::sort - Ascending
+
+120000		0.06936		0.0112193		5	Std::sort - Constant
+
+140000		0.05332		0.00405302		5	InsertionSort - Ascending
+
+140000		0.076		0.00880199		5	InsertionSort - Constant
+
+140000		1.17394		0.114453		5	QuickSort MoT - Ascending
+
+140000		1.79356		0.411282		5	QuickSort MoT - Descending
+
+140000		1.00246		0.27549		5	Std::sort - Ascending
+
+140000		0.09958		0.0133479		5	Std::sort - Constant
+
+160000		0.07282		0.00825663		5	InsertionSort - Ascending
+
+160000		0.07406		0.0232067		5	InsertionSort - Constant
+
+160000		1.69598		0.227841		5	QuickSort MoT - Ascending
+
+160000		1.4763		0.248549		5	QuickSort MoT - Descending
+
+160000		1.1628		0.224952		5	Std::sort - Ascending
+
+160000		0.08826		0.00442301		5	Std::sort - Constant
+
+180000		0.07446		0.00902485		5	InsertionSort - Ascending
+
+180000		0.06994		0.00132023		5	InsertionSort - Constant
+
+180000		1.59566		0.0903617		5	QuickSort MoT - Ascending
+
+180000		1.52296		0.0350269		5	QuickSort MoT - Descending
+
+180000		1.10084		0.0150931		5	Std::sort - Ascending
+
+180000		0.09784		0.0120143		5	Std::sort - Constant
+
+200000		0.07442		0.00461053		5	InsertionSort - Ascending
+
+200000		0.10288		0.026215		5	InsertionSort - Constant
+
+200000		1.61588		0.186253		5	QuickSort MoT - Ascending
+
+200000		1.82162		0.433913		5	QuickSort MoT - Descending
+
+200000		1.0752		0.0728278		5	Std::sort - Ascending
+
+200000		0.12442		0.0303038		5	Std::sort - Constant
+
+220000		0.09944		0.0256624		5	InsertionSort - Ascending
+
+220000		0.10112		0.0104234		5	InsertionSort - Constant
+
+220000		1.85382		0.231988		5	QuickSort MoT - Ascending
+
+220000		2.0975		0.184153		5	QuickSort MoT - Descending
+
+220000		1.33906		0.210734		5	Std::sort - Ascending
+
+220000		0.14388		0.0439111		5	Std::sort - Constant
+
+240000		0.10622		0.0120543		5	InsertionSort - Ascending
+
+240000		0.09438		0.00173983		5	InsertionSort - Constant
+
+240000		2.28964		0.426612		5	QuickSort MoT - Ascending
+
+240000		2.22266		0.152783		5	QuickSort MoT - Descending
+
+240000		1.58658		0.256265		5	Std::sort - Ascending
+
+240000		0.13264		0.00788911		5	Std::sort - Constant
+
+260000		0.10274		0.00463929		5	InsertionSort - Ascending
+
+260000		0.10462		0.0138408		5	InsertionSort - Constant
+
+260000		2.1737		0.0627672		5	QuickSort MoT - Ascending
+
+260000		2.37852		0.202845		5	QuickSort MoT - Descending
+
+260000		1.57916		0.280864		5	Std::sort - Ascending
+
+260000		0.1432		0.0201554		5	Std::sort - Constant
+
+280000		0.1079		0.0129043		5	InsertionSort - Ascending
+
+280000		0.10956		0.00527475		5	InsertionSort - Constant
+
+280000		2.18444		0.110233		5	QuickSort MoT - Ascending
+
+280000		2.36052		0.00756783		5	QuickSort MoT - Descending
+
+280000		1.74184		0.0923002		5	Std::sort - Ascending
+
+280000		0.15006		0.0025948		5	Std::sort - Constant
+
+300000		0.11106		0.00720888		5	InsertionSort - Ascending
+
+300000		0.1075		0.00755149		5	InsertionSort - Constant
+
+300000		2.36646		0.101913		5	QuickSort MoT - Ascending
+
+300000		2.3867		0.0429443		5	QuickSort MoT - Descending
+
+300000		1.7872		0.191908		5	Std::sort - Ascending
+
+300000		0.14746		0.00437984		5	Std::sort - Constant
+
+320000		0.15366		0.044693		5	InsertionSort - Ascending
+
+320000		0.1336		0.0163789		5	InsertionSort - Constant
+
+320000		3.3712		0.445715		5	QuickSort MoT - Ascending
+
+320000		2.70666		0.148995		5	QuickSort MoT - Descending
+
+320000		2.46188		0.546198		5	Std::sort - Ascending
+
+320000		0.17758		0.00934543		5	Std::sort - Constant
+
+340000		0.14876		0.0333415		5	InsertionSort - Ascending
+
+340000		0.18966		0.00820841		5	InsertionSort - Constant
+
+340000		2.96838		0.32199		5	QuickSort MoT - Ascending
+
+340000		3.2292		0.686657		5	QuickSort MoT - Descending
+
+340000		2.33556		0.519754		5	Std::sort - Ascending
+
+340000		0.23536		0.0413642		5	Std::sort - Constant
+
+360000		0.16262		0.0232354		5	InsertionSort - Ascending
+
+360000		0.2405		0.031091		5	InsertionSort - Constant
+
+360000		3.28202		0.176105		5	QuickSort MoT - Ascending
+
+360000		4.67788		0.506625		5	QuickSort MoT - Descending
+
+360000		2.47616		0.636236		5	Std::sort - Ascending
+
+360000		0.28878		0.0615926		5	Std::sort - Constant
+
+380000		0.31544		0.167761		5	InsertionSort - Ascending
+
+380000		0.26208		0.0158916		5	InsertionSort - Constant
+
+380000		9.44174		5.03298		5	QuickSort MoT - Ascending
+
+380000		6.0468		0.964548		5	QuickSort MoT - Descending
+
+380000		10.9583		7.95238		5	Std::sort - Ascending
+
+380000		0.25958		0.00688346		5	Std::sort - Constant
+
+400000		0.29452		0.0858286		5	InsertionSort - Ascending
+
+400000		0.22438		0.0472843		5	InsertionSort - Constant
+
+400000		7.28826		1.84662		5	QuickSort MoT - Ascending
+
+400000		4.30058		0.935704		5	QuickSort MoT - Descending
+
+400000		6.27962		2.93373		5	Std::sort - Ascending
+
+400000		0.2269		0.00824803		5	Std::sort - Constant
+
+420000		0.2131		0.0572559		5	InsertionSort - Ascending
+
+420000		0.21514		0.0118593		5	InsertionSort - Constant
+
+420000		3.83566		0.380093		5	QuickSort MoT - Ascending
+
+420000		4.62906		0.926701		5	QuickSort MoT - Descending
+
+420000		3.23868		0.64025		5	Std::sort - Ascending
+
+420000		0.27536		0.0364883		5	Std::sort - Constant
+
+440000		0.25254		0.044222		5	InsertionSort - Ascending
+
+440000		0.21226		0.0128064		5	InsertionSort - Constant
+
+440000		4.56846		0.826374		5	QuickSort MoT - Ascending
+
+440000		4.4506		0.596577		5	QuickSort MoT - Descending
+
+440000		3.33236		0.487362		5	Std::sort - Ascending
+
+440000		0.25214		0.00854652		5	Std::sort - Constant
+
+460000		0.24242		0.0327575		5	InsertionSort - Ascending
+
+460000		0.24684		0.0324515		5	InsertionSort - Constant
+
+460000		4.7845		0.529113		5	QuickSort MoT - Ascending
+
+460000		4.07526		0.107424		5	QuickSort MoT - Descending
+
+460000		2.87172		0.0870656		5	Std::sort - Ascending
+
+460000		0.30242		0.052809		5	Std::sort - Constant
+
+480000		0.20534		0.040924		5	InsertionSort - Ascending
+
+480000		0.28542		0.0946546		5	InsertionSort - Constant
+
+480000		4.05874		0.227436		5	QuickSort MoT - Ascending
+
+480000		4.5372		0.707999		5	QuickSort MoT - Descending
+
+480000		2.74756		0.202377		5	Std::sort - Ascending
+
+480000		0.40008		0.130663		5	Std::sort - Constant
+
+500000		0.21832		0.05758		5	InsertionSort - Ascending
+
+500000		0.28478		0.0528046		5	InsertionSort - Constant
+
+500000		4.5506		0.393283		5	QuickSort MoT - Ascending
+
+500000		5.09038		0.834359		5	QuickSort MoT - Descending
+
+500000		2.89874		0.217774		5	Std::sort - Ascending
+
+500000		0.3292		0.0313843		5	Std::sort - Constant
+
+520000		0.45216		0.240608		5	InsertionSort - Ascending
+
+520000		0.40598		0.168505		5	InsertionSort - Constant
+
+520000		5.3594		1.27919		5	QuickSort MoT - Ascending
+
+520000		4.60604		0.222707		5	QuickSort MoT - Descending
+
+520000		3.55214		0.76238		5	Std::sort - Ascending
+
+520000		0.45066		0.180698		5	Std::sort - Constant
+
+540000		0.78616		0.826541		5	InsertionSort - Ascending
+
+540000		0.34916		0.0762413		5	InsertionSort - Constant
+
+540000		6.18574		1.09387		5	QuickSort MoT - Ascending
+
+540000		6.63642		1.35673		5	QuickSort MoT - Descending
+
+540000		3.91066		0.59129		5	Std::sort - Ascending
+
+540000		0.4222		0.0785113		5	Std::sort - Constant
+
+560000		0.29858		0.0617949		5	InsertionSort - Ascending
+
+560000		0.27422		0.0499785		5	InsertionSort - Constant
+
+560000		5.18064		0.444754		5	QuickSort MoT - Ascending
+
+560000		5.33636		0.601349		5	QuickSort MoT - Descending
+
+560000		4.6327		0.65414		5	Std::sort - Ascending
+
+560000		0.35322		0.0376611		5	Std::sort - Constant
+
+580000		0.26642		0.0338661		5	InsertionSort - Ascending
+
+580000		0.24562		0.022715		5	InsertionSort - Constant
+
+580000		5.35044		0.339661		5	QuickSort MoT - Ascending
+
+580000		5.73994		0.527509		5	QuickSort MoT - Descending
+
+580000		4.37722		0.629065		5	Std::sort - Ascending
+
+580000		0.32132		0.0126151		5	Std::sort - Constant
+
+600000		0.32586		0.120387		5	InsertionSort - Ascending
+
+600000		0.29382		0.0820384		5	InsertionSort - Constant
+
+600000		5.82702		0.509144		5	QuickSort MoT - Ascending
+
+600000		5.53408		0.315882		5	QuickSort MoT - Descending
+
+600000		4.7891		1.0568		5	Std::sort - Ascending
+
+600000		0.36094		0.0562451		5	Std::sort - Constant
+
+620000		0.28138		0.0937785		5	InsertionSort - Ascending
+
+620000		0.22614		0.00563853		5	InsertionSort - Constant
+
+620000		5.31808		0.31922		5	QuickSort MoT - Ascending
+
+620000		5.06		0.0500676		5	QuickSort MoT - Descending
+
+620000		4.00452		0.3432		5	Std::sort - Ascending
+
+620000		0.30942		0.0130153		5	Std::sort - Constant
+
+640000		0.22708		0.00753505		5	InsertionSort - Ascending
+
+640000		0.22702		0.00608991		5	InsertionSort - Constant
+
+640000		5.18376		0.194932		5	QuickSort MoT - Ascending
+
+640000		5.73192		0.702066		5	QuickSort MoT - Descending
+
+640000		3.86278		0.385058		5	Std::sort - Ascending
+
+640000		0.32532		0.0176345		5	Std::sort - Constant
+
+660000		0.24586		0.0290615		5	InsertionSort - Ascending
+
+660000		0.3046		0.0668412		5	InsertionSort - Constant
+
+660000		5.86944		1.12085		5	QuickSort MoT - Ascending
+
+660000		5.63468		0.287287		5	QuickSort MoT - Descending
+
+660000		3.88754		0.0444049		5	Std::sort - Ascending
+
+660000		0.40304		0.080397		5	Std::sort - Constant
+
+680000		0.24144		0.016166		5	InsertionSort - Ascending
+
+680000		0.37524		0.0708523		5	InsertionSort - Constant
+
+680000		5.63508		0.164346		5	QuickSort MoT - Ascending
+
+680000		5.92896		0.606512		5	QuickSort MoT - Descending
+
+680000		4.37324		1.00603		5	Std::sort - Ascending
+
+680000		0.47962		0.0549083		5	Std::sort - Constant
+
+700000		0.2931		0.0901098		5	InsertionSort - Ascending
+
+700000		0.38584		0.205293		5	InsertionSort - Constant
+
+700000		5.68928		0.17576		5	QuickSort MoT - Ascending
+
+700000		5.70928		0.0513164		5	QuickSort MoT - Descending
+
+700000		4.04392		0.11335		5	Std::sort - Ascending
+
+700000		0.40486		0.0580391		5	Std::sort - Constant
+
+720000		0.27346		0.0373698		5	InsertionSort - Ascending
+
+720000		0.2699		0.0152925		5	InsertionSort - Constant
+
+720000		6.0567		0.39086		5	QuickSort MoT - Ascending
+
+720000		6.02164		0.0934122		5	QuickSort MoT - Descending
+
+720000		4.49614		0.420626		5	Std::sort - Ascending
+
+720000		0.39934		0.0789202		5	Std::sort - Constant
+
+740000		0.32064		0.0638822		5	InsertionSort - Ascending
+
+740000		0.26666		0.00833205		5	InsertionSort - Constant
+
+740000		6.12718		0.441534		5	QuickSort MoT - Ascending
+
+740000		6.13232		0.146399		5	QuickSort MoT - Descending
+
+740000		5.0433		0.704971		5	Std::sort - Ascending
+
+740000		0.37076		0.0276247		5	Std::sort - Constant
+
+760000		0.30222		0.0489979		5	InsertionSort - Ascending
+
+760000		0.27578		0.013709		5	InsertionSort - Constant
+
+760000		6.45238		0.315806		5	QuickSort MoT - Ascending
+
+760000		6.35692		0.0633723		5	QuickSort MoT - Descending
+
+760000		4.58512		0.25552		5	Std::sort - Ascending
+
+760000		0.3788		0.0156027		5	Std::sort - Constant
+
+780000		0.31638		0.0786556		5	InsertionSort - Ascending
+
+780000		0.28292		0.0100218		5	InsertionSort - Constant
+
+780000		6.64418		0.744368		5	QuickSort MoT - Ascending
+
+780000		6.50746		0.0867892		5	QuickSort MoT - Descending
+
+780000		4.7498		0.51196		5	Std::sort - Ascending
+
+780000		0.38906		0.0153092		5	Std::sort - Constant
+
+800000		0.32362		0.0785305		5	InsertionSort - Ascending
+
+800000		0.29662		0.0184287		5	InsertionSort - Constant
+
+800000		6.74668		0.635888		5	QuickSort MoT - Ascending
+
+800000		6.69866		0.28923		5	QuickSort MoT - Descending
+
+800000		4.85012		0.279992		5	Std::sort - Ascending
+
+800000		0.40758		0.0317828		5	Std::sort - Constant
+
+820000		0.3427		0.0592319		5	InsertionSort - Ascending
+
+820000		0.30354		0.0106625		5	InsertionSort - Constant
+
+820000		7.0239		0.836882		5	QuickSort MoT - Ascending
+
+820000		6.79234		0.0843026		5	QuickSort MoT - Descending
+
+820000		5.14168		0.882078		5	Std::sort - Ascending
+
+820000		0.41178		0.0175286		5	Std::sort - Constant
+
+840000		0.31702		0.0195573		5	InsertionSort - Ascending
+
+840000		0.31074		0.0105675		5	InsertionSort - Constant
+
+840000		6.75996		0.252526		5	QuickSort MoT - Ascending
+
+840000		6.80368		0.0791257		5	QuickSort MoT - Descending
+
+840000		4.92284		0.340694		5	Std::sort - Ascending
+
+840000		0.43008		0.0421073		5	Std::sort - Constant
+
+860000		0.50292		0.131626		5	InsertionSort - Ascending
+
+860000		0.31186		0.00986119		5	InsertionSort - Constant
+
+860000		8.29036		1.37		5	QuickSort MoT - Ascending
+
+860000		7.28828		0.298284		5	QuickSort MoT - Descending
+
+860000		7.04082		1.89562		5	Std::sort - Ascending
+
+860000		0.42686		0.0214763		5	Std::sort - Constant
+
+880000		0.3394		0.0219018		5	InsertionSort - Ascending
+
+880000		0.5922		0.0943576		5	InsertionSort - Constant
+
+880000		7.35882		0.301845		5	QuickSort MoT - Ascending
+
+880000		7.44828		0.305051		5	QuickSort MoT - Descending
+
+880000		5.16328		0.273212		5	Std::sort - Ascending
+
+880000		0.64486		0.107009		5	Std::sort - Constant
+
+900000		0.38902		0.0876116		5	InsertionSort - Ascending
+
+900000		0.3763		0.083282		5	InsertionSort - Constant
+
+900000		7.3227		0.294633		5	QuickSort MoT - Ascending
+
+900000		7.86038		0.561201		5	QuickSort MoT - Descending
+
+900000		5.2933		0.390418		5	Std::sort - Ascending
+
+900000		0.44608		0.0288519		5	Std::sort - Constant
+
+920000		0.34318		0.0369025		5	InsertionSort - Ascending
+
+920000		0.34738		0.0189517		5	InsertionSort - Constant
+
+920000		7.40092		0.132895		5	QuickSort MoT - Ascending
+
+920000		8.23978		1.15933		5	QuickSort MoT - Descending
+
+920000		5.27996		0.368823		5	Std::sort - Ascending
+
+920000		0.46014		0.0272439		5	Std::sort - Constant
+
+940000		0.34634		0.00652748		5	InsertionSort - Ascending
+
+940000		0.37212		0.0509944		5	InsertionSort - Constant
+
+940000		7.46616		0.132066		5	QuickSort MoT - Ascending
+
+940000		8.26652		1.06764		5	QuickSort MoT - Descending
+
+940000		5.2066		0.0594003		5	Std::sort - Ascending
+
+940000		0.47812		0.019387		5	Std::sort - Constant
+
+960000		0.43568		0.195408		5	InsertionSort - Ascending
+
+960000		0.3551		0.012562		5	InsertionSort - Constant
+
+960000		7.95252		0.64536		5	QuickSort MoT - Ascending
+
+960000		8.9007		1.62525		5	QuickSort MoT - Descending
+
+960000		5.91298		0.836417		5	Std::sort - Ascending
+
+960000		0.47574		0.0336759		5	Std::sort - Constant
+
+980000		0.37738		0.0441361		5	InsertionSort - Ascending
+
+980000		0.35026		0.00553426		5	InsertionSort - Constant
+
+980000		7.81744		0.0942806		5	QuickSort MoT - Ascending
+
+980000		8.39978		0.397805		5	QuickSort MoT - Descending
+
+980000		5.83016		0.530496		5	Std::sort - Ascending
+
+980000		0.49542		0.0238703		5	Std::sort - Constant
+
+1000000		0.3719		0.034622		5	InsertionSort - Ascending
+
+1000000		0.37806		0.0176349		5	InsertionSort - Constant
+
+1000000		7.97466		0.406649		5	QuickSort MoT - Ascending
+
+1000000		7.94428		0.0444467		5	QuickSort MoT - Descending
+
+1000000		5.92262		0.937983		5	Std::sort - Ascending
+
+1000000		0.5226		0.0406238		5	Std::sort - Constant
+
+1020000		0.4149		0.0723041		5	InsertionSort - Ascending
+
+1020000		0.515		0.0867213		5	InsertionSort - Constant
+
+1020000		8.35004		0.436709		5	QuickSort MoT - Ascending
+
+1020000		8.67038		0.569687		5	QuickSort MoT - Descending
+
+1020000		6.17546		0.869851		5	Std::sort - Ascending
+
+1020000		0.61732		0.0396188		5	Std::sort - Constant
+
+1040000		0.3761		0.0139002		5	InsertionSort - Ascending
+
+1040000		0.39002		0.0211459		5	InsertionSort - Constant
+
+1040000		8.33044		0.125912		5	QuickSort MoT - Ascending
+
+1040000		9.1556		1.18856		5	QuickSort MoT - Descending
+
+1040000		5.6915		0.134149		5	Std::sort - Ascending
+
+1040000		0.52544		0.0214936		5	Std::sort - Constant
+
+1060000		0.38708		0.0134632		5	InsertionSort - Ascending
+
+1060000		0.39022		0.0195575		5	InsertionSort - Constant
+
+1060000		8.54218		0.303846		5	QuickSort MoT - Ascending
+
+1060000		8.97522		0.969603		5	QuickSort MoT - Descending
+
+1060000		6.01996		0.322031		5	Std::sort - Ascending
+
+1060000		0.53036		0.0281834		5	Std::sort - Constant
+
+1080000		0.5591		0.197041		5	InsertionSort - Ascending
+
+1080000		0.43416		0.0680371		5	InsertionSort - Constant
+
+1080000		8.57766		0.165409		5	QuickSort MoT - Ascending
+
+1080000		8.79642		0.141507		5	QuickSort MoT - Descending
+
+1080000		6.3041		0.544809		5	Std::sort - Ascending
+
+1080000		0.56646		0.0434753		5	Std::sort - Constant
+
+1100000		0.46288		0.148968		5	InsertionSort - Ascending
+
+1100000		0.4823		0.0267284		5	InsertionSort - Constant
+
+1100000		8.91756		0.745893		5	QuickSort MoT - Ascending
+
+1100000		9.40902		1.33977		5	QuickSort MoT - Descending
+
+1100000		7.4244		1.87429		5	Std::sort - Ascending
+
+1100000		0.61286		0.0256732		5	Std::sort - Constant
+
+1120000		0.43656		0.0646097		5	InsertionSort - Ascending
+
+1120000		0.43304		0.0357285		5	InsertionSort - Constant
+
+1120000		9.3067		0.63931		5	QuickSort MoT - Ascending
+
+1120000		9.43388		0.440809		5	QuickSort MoT - Descending
+
+1120000		7.7324		1.11966		5	Std::sort - Ascending
+
+1120000		0.6211		0.0728676		5	Std::sort - Constant
+
+1140000		0.4263		0.0292167		5	InsertionSort - Ascending
+
+1140000		0.43764		0.0173235		5	InsertionSort - Constant
+
+1140000		9.78022		0.807104		5	QuickSort MoT - Ascending
+
+1140000		10.2167		0.769276		5	QuickSort MoT - Descending
+
+1140000		7.27288		0.123694		5	Std::sort - Ascending
+
+1140000		0.62906		0.114397		5	Std::sort - Constant
+
+1160000		0.46192		0.0632516		5	InsertionSort - Ascending
+
+1160000		0.49636		0.0948957		5	InsertionSort - Constant
+
+1160000		9.53236		0.1931		5	QuickSort MoT - Ascending
+
+1160000		10.1388		1.06342		5	QuickSort MoT - Descending
+
+1160000		7.29458		0.119253		5	Std::sort - Ascending
+
+1160000		0.6326		0.0790107		5	Std::sort - Constant
+
+1180000		0.5265		0.161252		5	InsertionSort - Ascending
+
+1180000		0.46034		0.0147314		5	InsertionSort - Constant
+
+1180000		9.9226		0.34899		5	QuickSort MoT - Ascending
+
+1180000		9.96216		0.169366		5	QuickSort MoT - Descending
+
+1180000		7.67796		1.07784		5	Std::sort - Ascending
+
+1180000		0.62798		0.0618876		5	Std::sort - Constant
+
+1200000		0.44868		0.0189819		5	InsertionSort - Ascending
+
+1200000		0.55836		0.124899		5	InsertionSort - Constant
+
+1200000		9.95604		0.229767		5	QuickSort MoT - Ascending
+
+1200000		11.0362		1.1939		5	QuickSort MoT - Descending
+
+1200000		8.00462		0.709072		5	Std::sort - Ascending
+
+1200000		0.65766		0.0542438		5	Std::sort - Constant
+
+1220000		0.4557		0.0258322		5	InsertionSort - Ascending
+
+1220000		0.71966		0.144222		5	InsertionSort - Constant
+
+1220000		10.6544		1.05653		5	QuickSort MoT - Ascending
+
+1220000		10.9056		0.62971		5	QuickSort MoT - Descending
+
+1220000		7.67622		0.159367		5	Std::sort - Ascending
+
+1220000		0.83226		0.148887		5	Std::sort - Constant
+
+1240000		0.534		0.147235		5	InsertionSort - Ascending
+
+1240000		0.49226		0.0434616		5	InsertionSort - Constant
+
+1240000		10.3628		0.106483		5	QuickSort MoT - Ascending
+
+1240000		11.0194		1.11808		5	QuickSort MoT - Descending
+
+1240000		8.53302		2.11169		5	Std::sort - Ascending
+
+1240000		0.6494		0.0445185		5	Std::sort - Constant
+
+1260000		0.5494		0.165124		5	InsertionSort - Ascending
+
+1260000		0.48794		0.0231148		5	InsertionSort - Constant
+
+1260000		10.9951		0.789327		5	QuickSort MoT - Ascending
+
+1260000		11.1666		0.482269		5	QuickSort MoT - Descending
+
+1260000		8.13532		1.0252		5	Std::sort - Ascending
+
+1260000		0.64062		0.0278044		5	Std::sort - Constant
+
+1280000		0.66008		0.339441		5	InsertionSort - Ascending
+
+1280000		0.49402		0.0202062		5	InsertionSort - Constant
+
+1280000		11.0247		0.33426		5	QuickSort MoT - Ascending
+
+1280000		10.9792		0.0809825		5	QuickSort MoT - Descending
+
+1280000		8.10138		0.413229		5	Std::sort - Ascending
+
+1280000		0.64798		0.0426425		5	Std::sort - Constant
+
+1300000		0.50738		0.0525398		5	InsertionSort - Ascending
+
+1300000		0.51936		0.0441921		5	InsertionSort - Constant
+
+1300000		11.532		0.626401		5	QuickSort MoT - Ascending
+
+1300000		12.1622		1.13178		5	QuickSort MoT - Descending
+
+1300000		8.8755		1.70757		5	Std::sort - Ascending
+
+1300000		0.6724		0.0267908		5	Std::sort - Constant
+
+1320000		0.55132		0.0876147		5	InsertionSort - Ascending
+
+1320000		0.5266		0.0402584		5	InsertionSort - Constant
+
+1320000		11.3541		0.241912		5	QuickSort MoT - Ascending
+
+1320000		12.0919		0.803278		5	QuickSort MoT - Descending
+
+1320000		9.13348		0.954565		5	Std::sort - Ascending
+
+1320000		0.7148		0.0664374		5	Std::sort - Constant
+
+1340000		0.50572		0.0297327		5	InsertionSort - Ascending
+
+1340000		0.58342		0.0835793		5	InsertionSort - Constant
+
+1340000		12.4099		1.72121		5	QuickSort MoT - Ascending
+
+1340000		12.3028		2.18436		5	QuickSort MoT - Descending
+
+1340000		8.60052		0.203891		5	Std::sort - Ascending
+
+1340000		0.81818		0.147891		5	Std::sort - Constant
+
+1360000		0.50138		0.0131739		5	InsertionSort - Ascending
+
+1360000		0.52704		0.0245685		5	InsertionSort - Constant
+
+1360000		11.562		0.374572		5	QuickSort MoT - Ascending
+
+1360000		11.9261		0.324659		5	QuickSort MoT - Descending
+
+1360000		8.30412		0.174529		5	Std::sort - Ascending
+
+1360000		0.71494		0.0244452		5	Std::sort - Constant
+
+1380000		0.5588		0.0697324		5	InsertionSort - Ascending
+
+1380000		0.52012		0.031163		5	InsertionSort - Constant
+
+1380000		12.2314		1.08205		5	QuickSort MoT - Ascending
+
+1380000		12.2586		0.213679		5	QuickSort MoT - Descending
+
+1380000		8.57248		0.443193		5	Std::sort - Ascending
+
+1380000		0.69808		0.0403578		5	Std::sort - Constant
+
+1400000		0.5711		0.0586578		5	InsertionSort - Ascending
+
+1400000		0.56574		0.0465402		5	InsertionSort - Constant
+
+1400000		12.1489		1.01323		5	QuickSort MoT - Ascending
+
+1400000		12.1721		0.374057		5	QuickSort MoT - Descending
+
+1400000		8.7835		0.410436		5	Std::sort - Ascending
+
+1400000		0.73856		0.0490369		5	Std::sort - Constant
+
+1420000		0.5813		0.0950259		5	InsertionSort - Ascending
+
+1420000		0.54872		0.0275119		5	InsertionSort - Constant
+
+1420000		12.2755		0.790197		5	QuickSort MoT - Ascending
+
+1420000		12.0526		0.154142		5	QuickSort MoT - Descending
+
+1420000		8.9891		0.16322		5	Std::sort - Ascending
+
+1420000		0.72838		0.0291667		5	Std::sort - Constant
+
+1440000		0.64506		0.0611185		5	InsertionSort - Ascending
+
+1440000		0.56656		0.0356586		5	InsertionSort - Constant
+
+1440000		13.0161		0.677086		5	QuickSort MoT - Ascending
+
+1440000		12.8358		0.778301		5	QuickSort MoT - Descending
+
+1440000		10.7753		2.3595		5	Std::sort - Ascending
+
+1440000		0.74726		0.0311615		5	Std::sort - Constant
+
+1460000		0.58188		0.0188688		5	InsertionSort - Ascending
+
+1460000		0.5667		0.0243636		5	InsertionSort - Constant
+
+1460000		12.3839		0.408399		5	QuickSort MoT - Ascending
+
+1460000		12.6265		0.0698111		5	QuickSort MoT - Descending
+
+1460000		9.81998		1.10694		5	Std::sort - Ascending
+
+1460000		0.74276		0.0397594		5	Std::sort - Constant
+
+1480000		0.6144		0.0804369		5	InsertionSort - Ascending
+
+1480000		0.61608		0.0918393		5	InsertionSort - Constant
+
+1480000		12.5817		0.250297		5	QuickSort MoT - Ascending
+
+1480000		12.9274		0.896829		5	QuickSort MoT - Descending
+
+1480000		9.70832		0.559628		5	Std::sort - Ascending
+
+1480000		0.76402		0.0375065		5	Std::sort - Constant
+
+1500000		0.6714		0.143577		5	InsertionSort - Ascending
+
+1500000		0.63228		0.0789699		5	InsertionSort - Constant
+
+1500000		12.7223		0.261802		5	QuickSort MoT - Ascending
+
+1500000		13.4577		0.731425		5	QuickSort MoT - Descending
+
+1500000		9.73978		0.644307		5	Std::sort - Ascending
+
+1500000		0.78446		0.0314277		5	Std::sort - Constant
+
+1520000		0.60748		0.045583		5	InsertionSort - Ascending
+
+1520000		0.63966		0.106195		5	InsertionSort - Constant
+
+1520000		13.1669		0.172119		5	QuickSort MoT - Ascending
+
+1520000		13.8559		1.03689		5	QuickSort MoT - Descending
+
+1520000		9.74776		0.461965		5	Std::sort - Ascending
+
+1520000		0.78546		0.0369879		5	Std::sort - Constant
+
+1540000		0.61782		0.0912373		5	InsertionSort - Ascending
+
+1540000		0.60504		0.0265551		5	InsertionSort - Constant
+
+1540000		13.1733		0.4524		5	QuickSort MoT - Ascending
+
+1540000		14.1559		1.15591		5	QuickSort MoT - Descending
+
+1540000		9.7303		0.242135		5	Std::sort - Ascending
+
+1540000		0.80654		0.0531392		5	Std::sort - Constant
+
+1560000		0.67434		0.137407		5	InsertionSort - Ascending
+
+1560000		0.63488		0.0547134		5	InsertionSort - Constant
+
+1560000		13.8492		1.10484		5	QuickSort MoT - Ascending
+
+1560000		14.2031		1.0329		5	QuickSort MoT - Descending
+
+1560000		9.82186		0.199341		5	Std::sort - Ascending
+
+1560000		0.92032		0.208425		5	Std::sort - Constant
+
+1580000		0.69414		0.0897587		5	InsertionSort - Ascending
+
+1580000		0.62388		0.0351904		5	InsertionSort - Constant
+
+1580000		13.7297		0.400586		5	QuickSort MoT - Ascending
+
+1580000		14.1308		0.887847		5	QuickSort MoT - Descending
+
+1580000		9.91124		0.330557		5	Std::sort - Ascending
+
+1580000		0.82564		0.0520991		5	Std::sort - Constant
+
+1600000		0.62356		0.0361818		5	InsertionSort - Ascending
+
+1600000		0.67708		0.0862594		5	InsertionSort - Constant
+
+1600000		13.4546		0.472599		5	QuickSort MoT - Ascending
+
+1600000		14.0416		0.66051		5	QuickSort MoT - Descending
+
+1600000		9.94372		0.169384		5	Std::sort - Ascending
+
+1600000		0.89712		0.0854878		5	Std::sort - Constant
+
+1620000		0.67834		0.0962798		5	InsertionSort - Ascending
+
+1620000		0.62874		0.040938		5	InsertionSort - Constant
+
+1620000		13.5893		0.304321		5	QuickSort MoT - Ascending
+
+1620000		15.954		2.11983		5	QuickSort MoT - Descending
+
+1620000		10.1298		0.696798		5	Std::sort - Ascending
+
+1620000		0.86866		0.103612		5	Std::sort - Constant
+
+1640000		0.685		0.095773		5	InsertionSort - Ascending
+
+1640000		0.6765		0.0967601		5	InsertionSort - Constant
+
+1640000		14.3433		0.6785		5	QuickSort MoT - Ascending
+
+1640000		14.5618		0.725924		5	QuickSort MoT - Descending
+
+1640000		10.489		0.521304		5	Std::sort - Ascending
+
+1640000		0.84704		0.0380453		5	Std::sort - Constant
+
+1660000		0.6734		0.065208		5	InsertionSort - Ascending
+
+1660000		0.70302		0.111605		5	InsertionSort - Constant
+
+1660000		15.4924		2.31419		5	QuickSort MoT - Ascending
+
+1660000		14.2957		0.114578		5	QuickSort MoT - Descending
+
+1660000		10.1665		0.148625		5	Std::sort - Ascending
+
+1660000		0.8595		0.050715		5	Std::sort - Constant
+
+1680000		0.66608		0.0235785		5	InsertionSort - Ascending
+
+1680000		1.45078		0.932768		5	InsertionSort - Constant
+
+1680000		14.8451		1.67386		5	QuickSort MoT - Ascending
+
+1680000		14.3683		0.203445		5	QuickSort MoT - Descending
+
+1680000		10.8759		1.27679		5	Std::sort - Ascending
+
+1680000		1.25588		0.467705		5	Std::sort - Constant
+
+1700000		0.7021		0.0823683		5	InsertionSort - Ascending
+
+1700000		0.6744		0.0278883		5	InsertionSort - Constant
+
+1700000		14.7847		1.13117		5	QuickSort MoT - Ascending
+
+1700000		15.1918		0.443367		5	QuickSort MoT - Descending
+
+1700000		10.6978		0.57726		5	Std::sort - Ascending
+
+1700000		0.88026		0.0521915		5	Std::sort - Constant
+
+1720000		0.81916		0.237617		5	InsertionSort - Ascending
+
+1720000		0.66546		0.038537		5	InsertionSort - Constant
+
+1720000		15.6895		1.22543		5	QuickSort MoT - Ascending
+
+1720000		15.2835		1.27871		5	QuickSort MoT - Descending
+
+1720000		10.8797		0.652362		5	Std::sort - Ascending
+
+1720000		0.88718		0.057534		5	Std::sort - Constant
+
+1740000		0.68828		0.0491416		5	InsertionSort - Ascending
+
+1740000		0.69338		0.0536522		5	InsertionSort - Constant
+
+1740000		14.981		1.20852		5	QuickSort MoT - Ascending
+
+1740000		15.6374		0.669126		5	QuickSort MoT - Descending
+
+1740000		10.7088		0.194077		5	Std::sort - Ascending
+
+1740000		1.04704		0.34048		5	Std::sort - Constant
+
+1760000		0.70206		0.0301751		5	InsertionSort - Ascending
+
+1760000		0.83414		0.168316		5	InsertionSort - Constant
+
+1760000		15.291		0.697044		5	QuickSort MoT - Ascending
+
+1760000		16.1123		1.97894		5	QuickSort MoT - Descending
+
+1760000		11.3893		0.706984		5	Std::sort - Ascending
+
+1760000		0.987		0.104107		5	Std::sort - Constant
+
+1780000		0.72394		0.0232554		5	InsertionSort - Ascending
+
+1780000		0.81502		0.315313		5	InsertionSort - Constant
+
+1780000		15.3048		0.54832		5	QuickSort MoT - Ascending
+
+1780000		16.3594		1.33494		5	QuickSort MoT - Descending
+
+1780000		10.9544		0.268943		5	Std::sort - Ascending
+
+1780000		0.92904		0.0723962		5	Std::sort - Constant
+
+1800000		0.7901		0.152981		5	InsertionSort - Ascending
+
+1800000		0.69174		0.0338108		5	InsertionSort - Constant
+
+1800000		15.578		0.394998		5	QuickSort MoT - Ascending
+
+1800000		16.3466		1.08427		5	QuickSort MoT - Descending
+
+1800000		11.2769		0.505009		5	Std::sort - Ascending
+
+1800000		0.92314		0.0442504		5	Std::sort - Constant
+
+1820000		0.76596		0.124227		5	InsertionSort - Ascending
+
+1820000		0.71648		0.029117		5	InsertionSort - Constant
+
+1820000		15.7718		0.684121		5	QuickSort MoT - Ascending
+
+1820000		15.9864		0.683475		5	QuickSort MoT - Descending
+
+1820000		11.5432		1.19023		5	Std::sort - Ascending
+
+1820000		0.9253		0.047325		5	Std::sort - Constant
+
+1840000		0.8311		0.199244		5	InsertionSort - Ascending
+
+1840000		0.70132		0.0520531		5	InsertionSort - Constant
+
+1840000		16.0461		0.635082		5	QuickSort MoT - Ascending
+
+1840000		16.1236		0.256108		5	QuickSort MoT - Descending
+
+1840000		11.8532		0.243975		5	Std::sort - Ascending
+
+1840000		0.95642		0.0420316		5	Std::sort - Constant
+
+1860000		0.75222		0.0330754		5	InsertionSort - Ascending
+
+1860000		0.75968		0.0848023		5	InsertionSort - Constant
+
+1860000		16.4156		1.25617		5	QuickSort MoT - Ascending
+
+1860000		16.5294		1.36489		5	QuickSort MoT - Descending
+
+1860000		12.5588		2.25877		5	Std::sort - Ascending
+
+1860000		1.07772		0.189571		5	Std::sort - Constant
+
+1880000		0.9054		0.2424		5	InsertionSort - Ascending
+
+1880000		0.74644		0.0757786		5	InsertionSort - Constant
+
+1880000		16.4338		1.54464		5	QuickSort MoT - Ascending
+
+1880000		17.0618		1.25465		5	QuickSort MoT - Descending
+
+1880000		12.3213		1.60048		5	Std::sort - Ascending
+
+1880000		0.9895		0.0826984		5	Std::sort - Constant
+
+1900000		0.77766		0.0645781		5	InsertionSort - Ascending
+
+1900000		0.82066		0.0719878		5	InsertionSort - Constant
+
+1900000		16.8032		0.966355		5	QuickSort MoT - Ascending
+
+1900000		17.3258		1.19207		5	QuickSort MoT - Descending
+
+1900000		11.538		0.0959545		5	Std::sort - Ascending
+
+1900000		1.15162		0.167516		5	Std::sort - Constant
+
+1920000		0.92934		0.193101		5	InsertionSort - Ascending
+
+1920000		0.8015		0.0417648		5	InsertionSort - Constant
+
+1920000		16.9845		1.03942		5	QuickSort MoT - Ascending
+
+1920000		17.0954		0.335066		5	QuickSort MoT - Descending
+
+1920000		12.422		1.06883		5	Std::sort - Ascending
+
+1920000		1.1436		0.191717		5	Std::sort - Constant
+
+1940000		0.87004		0.19622		5	InsertionSort - Ascending
+
+1940000		0.76398		0.0263528		5	InsertionSort - Constant
+
+1940000		16.1253		0.118322		5	QuickSort MoT - Ascending
+
+1940000		17.0942		0.810064		5	QuickSort MoT - Descending
+
+1940000		12.8789		2.70297		5	Std::sort - Ascending
+
+1940000		0.99552		0.0523567		5	Std::sort - Constant
+
+1960000		0.82426		0.0835387		5	InsertionSort - Ascending
+
+1960000		0.7631		0.0558243		5	InsertionSort - Constant
+
+1960000		17.5042		1.17244		5	QuickSort MoT - Ascending
+
+1960000		18.0923		1.73661		5	QuickSort MoT - Descending
+
+1960000		12.0718		0.36879		5	Std::sort - Ascending
+
+1960000		0.99816		0.0486373		5	Std::sort - Constant
+
+1980000		0.81648		0.0293634		5	InsertionSort - Ascending
+
+1980000		0.88498		0.226428		5	InsertionSort - Constant
+
+1980000		17.0163		0.441547		5	QuickSort MoT - Ascending
+
+1980000		17.4725		0.908862		5	QuickSort MoT - Descending
+
+1980000		12.3214		0.440281		5	Std::sort - Ascending
+
+1980000		1.03756		0.0451131		5	Std::sort - Constant
+
+2000000		0.81138		0.0145704		5	InsertionSort - Ascending
+
+2000000		1.0996		0.395296		5	InsertionSort - Constant
+
+2000000		17.5919		1.63572		5	QuickSort MoT - Ascending
+
+2000000		17.9427		1.27504		5	QuickSort MoT - Descending
+
+2000000		12.1864		0.250032		5	Std::sort - Ascending
+
+2000000		1.6474		0.61582		5	Std::sort - Constant
+
+2020000		0.86666		0.0941552		5	InsertionSort - Ascending
+
+2020000		0.95792		0.293518		5	InsertionSort - Constant
+
+2020000		18.5396		1.78866		5	QuickSort MoT - Ascending
+
+2020000		18.1021		1.70979		5	QuickSort MoT - Descending
+
+2020000		12.5215		0.416187		5	Std::sort - Ascending
+
+2020000		1.26978		0.262128		5	Std::sort - Constant
+
+2040000		0.8468		0.0210359		5	InsertionSort - Ascending
+
+2040000		0.79408		0.0297272		5	InsertionSort - Constant
+
+2040000		17.573		0.50185		5	QuickSort MoT - Ascending
+
+2040000		18.6376		1.15354		5	QuickSort MoT - Descending
+
+2040000		12.515		0.444322		5	Std::sort - Ascending
+
+2040000		1.0656		0.0423484		5	Std::sort - Constant
+
+2060000		0.9008		0.137251		5	InsertionSort - Ascending
+
+2060000		0.88404		0.0742077		5	InsertionSort - Constant
+
+2060000		17.6359		0.250243		5	QuickSort MoT - Ascending
+
+2060000		18.3379		0.416385		5	QuickSort MoT - Descending
+
+2060000		12.9824		1.22086		5	Std::sort - Ascending
+
+2060000		1.08464		0.0348523		5	Std::sort - Constant
+
+2080000		0.9381		0.0951583		5	InsertionSort - Ascending
+
+2080000		0.94776		0.140394		5	InsertionSort - Constant
+
+2080000		18.6287		1.11662		5	QuickSort MoT - Ascending
+
+2080000		18.5999		1.03066		5	QuickSort MoT - Descending
+
+2080000		12.6655		0.609139		5	Std::sort - Ascending
+
+2080000		1.1208		0.0831163		5	Std::sort - Constant
+
+2100000		0.88046		0.0937272		5	InsertionSort - Ascending
+
+2100000		0.88792		0.100904		5	InsertionSort - Constant
+
+2100000		19.0804		1.17588		5	QuickSort MoT - Ascending
+
+2100000		19.0372		1.23928		5	QuickSort MoT - Descending
+
+2100000		12.6444		0.443647		5	Std::sort - Ascending
+
+2100000		1.10554		0.0473681		5	Std::sort - Constant
+
+2120000		0.91838		0.118791		5	InsertionSort - Ascending
+
+2120000		0.90294		0.144129		5	InsertionSort - Constant
+
+2120000		17.9219		0.279576		5	QuickSort MoT - Ascending
+
+2120000		18.761		1.45133		5	QuickSort MoT - Descending
+
+2120000		13.5191		1.30742		5	Std::sort - Ascending
+
+2120000		1.11978		0.0421119		5	Std::sort - Constant
+
+2140000		0.90028		0.0613931		5	InsertionSort - Ascending
+
+2140000		1.02738		0.348143		5	InsertionSort - Constant
+
+2140000		19.3303		2.08595		5	QuickSort MoT - Ascending
+
+2140000		18.6778		1.14859		5	QuickSort MoT - Descending
+
+2140000		13.2612		0.939		5	Std::sort - Ascending
+
+2140000		1.12544		0.0459182		5	Std::sort - Constant
+
+2160000		1.00836		0.193479		5	InsertionSort - Ascending
+
+2160000		0.99086		0.215977		5	InsertionSort - Constant
+
+2160000		19.4459		2.4343		5	QuickSort MoT - Ascending
+
+2160000		18.7389		0.294316		5	QuickSort MoT - Descending
+
+2160000		13.7979		1.71913		5	Std::sort - Ascending
+
+2160000		1.17252		0.0911607		5	Std::sort - Constant
+
+2180000		0.93778		0.133987		5	InsertionSort - Ascending
+
+2180000		0.99406		0.136421		5	InsertionSort - Constant
+
+2180000		20.0447		1.60156		5	QuickSort MoT - Ascending
+
+2180000		18.9229		0.46069		5	QuickSort MoT - Descending
+
+2180000		13.4083		0.189553		5	Std::sort - Ascending
+
+2180000		1.19978		0.0967201		5	Std::sort - Constant
+
+2200000		0.97168		0.148244		5	InsertionSort - Ascending
+
+2200000		0.9345		0.0548768		5	InsertionSort - Constant
+
+2200000		19.8126		2.00078		5	QuickSort MoT - Ascending
+
+2200000		19.8004		1.12316		5	QuickSort MoT - Descending
+
+2200000		14.4314		0.0824546		5	Std::sort - Ascending
+
+2200000		1.20298		0.0788011		5	Std::sort - Constant
+
+2220000		1.18774		0.431386		5	InsertionSort - Ascending
+
+2220000		0.89896		0.0373352		5	InsertionSort - Constant
+
+2220000		20.2713		1.82839		5	QuickSort MoT - Ascending
+
+2220000		19.719		0.796396		5	QuickSort MoT - Descending
+
+2220000		16.3859		2.6563		5	Std::sort - Ascending
+
+2220000		1.18242		0.0311218		5	Std::sort - Constant
+
+2240000		1.0822		0.260828		5	InsertionSort - Ascending
+
+2240000		0.9144		0.0640523		5	InsertionSort - Constant
+
+2240000		20.3365		1.30236		5	QuickSort MoT - Ascending
+
+2240000		19.8328		0.720073		5	QuickSort MoT - Descending
+
+2240000		16.2406		1.27475		5	Std::sort - Ascending
+
+2240000		1.18244		0.0572939		5	Std::sort - Constant
+
+2260000		1.04782		0.170918		5	InsertionSort - Ascending
+
+2260000		0.96094		0.147942		5	InsertionSort - Constant
+
+2260000		19.8498		0.475477		5	QuickSort MoT - Ascending
+
+2260000		20.1778		0.466185		5	QuickSort MoT - Descending
+
+2260000		15.9784		1.36115		5	Std::sort - Ascending
+
+2260000		1.18144		0.0426471		5	Std::sort - Constant
+
+2280000		1.02596		0.0901616		5	InsertionSort - Ascending
+
+2280000		0.93162		0.0375118		5	InsertionSort - Constant
+
+2280000		20.7717		1.40146		5	QuickSort MoT - Ascending
+
+2280000		20.5424		0.750365		5	QuickSort MoT - Descending
+
+2280000		15.627		0.0313842		5	Std::sort - Ascending
+
+2280000		1.24034		0.0682453		5	Std::sort - Constant
+
+2300000		1.09292		0.270485		5	InsertionSort - Ascending
+
+2300000		1.3206		0.321763		5	InsertionSort - Constant
+
+2300000		20.3475		0.446377		5	QuickSort MoT - Ascending
+
+2300000		20.8481		0.699575		5	QuickSort MoT - Descending
+
+2300000		16.1689		1.44837		5	Std::sort - Ascending
+
+2300000		1.70734		0.314872		5	Std::sort - Constant
+
+2320000		0.96514		0.0377366		5	InsertionSort - Ascending
+
+2320000		1.05142		0.160731		5	InsertionSort - Constant
+
+2320000		20.4607		0.660963		5	QuickSort MoT - Ascending
+
+2320000		21.959		1.80544		5	QuickSort MoT - Descending
+
+2320000		16.5415		1.33802		5	Std::sort - Ascending
+
+2320000		1.29526		0.067955		5	Std::sort - Constant
+
+2340000		0.9647		0.0298803		5	InsertionSort - Ascending
+
+2340000		0.96558		0.0299077		5	InsertionSort - Constant
+
+2340000		20.6379		0.425136		5	QuickSort MoT - Ascending
+
+2340000		21.2777		1.17678		5	QuickSort MoT - Descending
+
+2340000		17.4336		3.26247		5	Std::sort - Ascending
+
+2340000		1.29694		0.0787491		5	Std::sort - Constant
+
+2360000		1.00312		0.109734		5	InsertionSort - Ascending
+
+2360000		1.08028		0.25989		5	InsertionSort - Constant
+
+2360000		21.2859		0.675244		5	QuickSort MoT - Ascending
+
+2360000		21.2748		0.809646		5	QuickSort MoT - Descending
+
+2360000		15.5865		0.254735		5	Std::sort - Ascending
+
+2360000		1.40178		0.287676		5	Std::sort - Constant
+
+2380000		1.062		0.0441339		5	InsertionSort - Ascending
+
+2380000		1.01732		0.098944		5	InsertionSort - Constant
+
+2380000		21.714		0.929945		5	QuickSort MoT - Ascending
+
+2380000		22.0109		0.730223		5	QuickSort MoT - Descending
+
+2380000		17.0519		1.16635		5	Std::sort - Ascending
+
+2380000		1.28708		0.029757		5	Std::sort - Constant
+
+2400000		1.0805		0.0985416		5	InsertionSort - Ascending
+
+2400000		1.03144		0.0947638		5	InsertionSort - Constant
+
+2400000		22.4345		1.57864		5	QuickSort MoT - Ascending
+
+2400000		21.7332		1.11173		5	QuickSort MoT - Descending
+
+2400000		16.4382		0.248436		5	Std::sort - Ascending
+
+2400000		1.30016		0.040235		5	Std::sort - Constant
+
+2420000		1.324		0.596489		5	InsertionSort - Ascending
+
+2420000		1.18566		0.168101		5	InsertionSort - Constant
+
+2420000		21.5631		0.893416		5	QuickSort MoT - Ascending
+
+2420000		22.7753		2.23751		5	QuickSort MoT - Descending
+
+2420000		16.4629		1.02346		5	Std::sort - Ascending
+
+2420000		1.4954		0.167771		5	Std::sort - Constant
+
+2440000		1.05514		0.0618345		5	InsertionSort - Ascending
+
+2440000		1.15778		0.32246		5	InsertionSort - Constant
+
+2440000		22.327		2.03649		5	QuickSort MoT - Ascending
+
+2440000		23.302		1.67979		5	QuickSort MoT - Descending
+
+2440000		16.8747		0.292031		5	Std::sort - Ascending
+
+2440000		1.98692		1.51185		5	Std::sort - Constant
+
+2460000		1.25728		0.247742		5	InsertionSort - Ascending
+
+2460000		1.3521		0.385952		5	InsertionSort - Constant
+
+2460000		24.6913		1.89072		5	QuickSort MoT - Ascending
+
+2460000		22.7556		0.693819		5	QuickSort MoT - Descending
+
+2460000		18.637		1.93066		5	Std::sort - Ascending
+
+2460000		1.5372		0.183817		5	Std::sort - Constant
+
+2480000		1.0671		0.0619584		5	InsertionSort - Ascending
+
+2480000		1.03458		0.0116962		5	InsertionSort - Constant
+
+2480000		22.3584		0.89111		5	QuickSort MoT - Ascending
+
+2480000		23.8854		1.86944		5	QuickSort MoT - Descending
+
+2480000		17.6102		0.859976		5	Std::sort - Ascending
+
+2480000		1.33608		0.0311371		5	Std::sort - Constant
+
+2500000		1.15824		0.18507		5	InsertionSort - Ascending
+
+2500000		1.26096		0.394191		5	InsertionSort - Constant
+
+2500000		22.569		1.15049		5	QuickSort MoT - Ascending
+
+2500000		23.3467		1.40717		5	QuickSort MoT - Descending
+
+2500000		16.5407		0.191744		5	Std::sort - Ascending
+
+2500000		1.70712		0.468084		5	Std::sort - Constant
+
+2520000		1.084		0.0504417		5	InsertionSort - Ascending
+
+2520000		1.04796		0.0236476		5	InsertionSort - Constant
+
+2520000		23.3408		1.31045		5	QuickSort MoT - Ascending
+
+2520000		24.1091		1.42403		5	QuickSort MoT - Descending
+
+2520000		17.2811		0.978455		5	Std::sort - Ascending
+
+2520000		1.40316		0.065217		5	Std::sort - Constant
+
+2540000		1.14706		0.137189		5	InsertionSort - Ascending
+
+2540000		1.14188		0.117139		5	InsertionSort - Constant
+
+2540000		22.5532		0.473491		5	QuickSort MoT - Ascending
+
+2540000		23.4282		0.857497		5	QuickSort MoT - Descending
+
+2540000		17.4524		0.77942		5	Std::sort - Ascending
+
+2540000		1.4693		0.0894628		5	Std::sort - Constant
+
+2560000		1.07524		0.0352098		5	InsertionSort - Ascending
+
+2560000		1.11324		0.0865637		5	InsertionSort - Constant
+
+2560000		24.1203		2.12012		5	QuickSort MoT - Ascending
+
+2560000		24.0828		1.41967		5	QuickSort MoT - Descending
+
+2560000		17.2931		0.488198		5	Std::sort - Ascending
+
+2560000		1.4578		0.0869198		5	Std::sort - Constant
+
+2580000		1.09526		0.0472875		5	InsertionSort - Ascending
+
+2580000		1.09662		0.0828982		5	InsertionSort - Constant
+
+2580000		24.2094		1.70061		5	QuickSort MoT - Ascending
+
+2580000		24.9962		1.60231		5	QuickSort MoT - Descending
+
+2580000		17.5282		0.98495		5	Std::sort - Ascending
+
+2580000		1.4058		0.0261335		5	Std::sort - Constant
+
+2600000		1.0761		0.0208473		5	InsertionSort - Ascending
+
+2600000		1.15074		0.169786		5	InsertionSort - Constant
+
+2600000		25.6629		1.81891		5	QuickSort MoT - Ascending
+
+2600000		24.8129		1.5464		5	QuickSort MoT - Descending
+
+2600000		17.4371		0.506465		5	Std::sort - Ascending
+
+2600000		1.40856		0.0228758		5	Std::sort - Constant
+
+2620000		1.18612		0.142783		5	InsertionSort - Ascending
+
+2620000		1.25838		0.0266388		5	InsertionSort - Constant
+
+2620000		25.6372		2.16788		5	QuickSort MoT - Ascending
+
+2620000		25.9973		2.62813		5	QuickSort MoT - Descending
+
+2620000		17.4239		0.201745		5	Std::sort - Ascending
+
+2620000		1.58584		0.0243984		5	Std::sort - Constant
+
+2640000		1.1187		0.0278225		5	InsertionSort - Ascending
+
+2640000		1.5014		0.474463		5	InsertionSort - Constant
+
+2640000		24.1837		0.304484		5	QuickSort MoT - Ascending
+
+2640000		24.3497		0.19134		5	QuickSort MoT - Descending
+
+2640000		18.3888		1.50867		5	Std::sort - Ascending
+
+2640000		2.11264		0.844737		5	Std::sort - Constant
+
+2660000		1.32686		0.388774		5	InsertionSort - Ascending
+
+2660000		1.15384		0.0877903		5	InsertionSort - Constant
+
+2660000		24.5602		1.94121		5	QuickSort MoT - Ascending
+
+2660000		25.5246		1.82361		5	QuickSort MoT - Descending
+
+2660000		19.0734		1.58321		5	Std::sort - Ascending
+
+2660000		1.46984		0.0186737		5	Std::sort - Constant
+
+2680000		1.12912		0.0859284		5	InsertionSort - Ascending
+
+2680000		1.14402		0.0159743		5	InsertionSort - Constant
+
+2680000		25.5305		2.94303		5	QuickSort MoT - Ascending
+
+2680000		25.3495		1.24871		5	QuickSort MoT - Descending
+
+2680000		18.077		0.378798		5	Std::sort - Ascending
+
+2680000		1.49564		0.0368667		5	Std::sort - Constant
+
+2700000		1.20292		0.130615		5	InsertionSort - Ascending
+
+2700000		1.19332		0.148078		5	InsertionSort - Constant
+
+2700000		24.9035		2.24359		5	QuickSort MoT - Ascending
+
+2700000		25.8905		3.34305		5	QuickSort MoT - Descending
+
+2700000		18.5673		0.724187		5	Std::sort - Ascending
+
+2700000		1.53372		0.119095		5	Std::sort - Constant
+
+2720000		1.1363		0.0203957		5	InsertionSort - Ascending
+
+2720000		1.15398		0.018737		5	InsertionSort - Constant
+
+2720000		25.2273		1.22612		5	QuickSort MoT - Ascending
+
+2720000		26.8521		2.26027		5	QuickSort MoT - Descending
+
+2720000		19.0573		2.38125		5	Std::sort - Ascending
+
+2720000		1.51626		0.0749848		5	Std::sort - Constant
+
+2740000		1.44688		0.586009		5	InsertionSort - Ascending
+
+2740000		1.1466		0.016975		5	InsertionSort - Constant
+
+2740000		26.3716		1.60891		5	QuickSort MoT - Ascending
+
+2740000		26.0807		0.721676		5	QuickSort MoT - Descending
+
+2740000		19.0333		1.12149		5	Std::sort - Ascending
+
+2740000		1.52626		0.0526892		5	Std::sort - Constant
+
+2760000		1.2504		0.149669		5	InsertionSort - Ascending
+
+2760000		1.25012		0.162713		5	InsertionSort - Constant
+
+2760000		25.0008		0.353908		5	QuickSort MoT - Ascending
+
+2760000		26.2507		0.956634		5	QuickSort MoT - Descending
+
+2760000		19.5091		1.35192		5	Std::sort - Ascending
+
+2760000		1.50636		0.0164328		5	Std::sort - Constant
+
+2780000		1.32218		0.352347		5	InsertionSort - Ascending
+
+2780000		1.19124		0.0321188		5	InsertionSort - Constant
+
+2780000		27.0742		2.15691		5	QuickSort MoT - Ascending
+
+2780000		27.3818		1.29146		5	QuickSort MoT - Descending
+
+2780000		18.1495		0.209411		5	Std::sort - Ascending
+
+2780000		1.55082		0.0525515		5	Std::sort - Constant
+
+2800000		1.1862		0.0396606		5	InsertionSort - Ascending
+
+2800000		1.3807		0.187291		5	InsertionSort - Constant
+
+2800000		24.9755		0.447155		5	QuickSort MoT - Ascending
+
+2800000		27.7879		2.50699		5	QuickSort MoT - Descending
+
+2800000		19.4857		1.45153		5	Std::sort - Ascending
+
+2800000		1.8244		0.229329		5	Std::sort - Constant
+
+2820000		1.39938		0.46189		5	InsertionSort - Ascending
+
+2820000		1.52124		0.402412		5	InsertionSort - Constant
+
+2820000		25.8939		1.89438		5	QuickSort MoT - Ascending
+
+2820000		25.8232		0.662481		5	QuickSort MoT - Descending
+
+2820000		19.3152		0.459555		5	Std::sort - Ascending
+
+2820000		2.1987		0.68076		5	Std::sort - Constant
+
+2840000		1.4705		0.686888		5	InsertionSort - Ascending
+
+2840000		1.32682		0.117794		5	InsertionSort - Constant
+
+2840000		25.8438		1.28504		5	QuickSort MoT - Ascending
+
+2840000		26.328		1.08521		5	QuickSort MoT - Descending
+
+2840000		19.6598		1.01099		5	Std::sort - Ascending
+
+2840000		1.66418		0.123353		5	Std::sort - Constant
+
+2860000		1.4248		0.296516		5	InsertionSort - Ascending
+
+2860000		1.38366		0.137689		5	InsertionSort - Constant
+
+2860000		26.668		1.09159		5	QuickSort MoT - Ascending
+
+2860000		26.8128		1.21049		5	QuickSort MoT - Descending
+
+2860000		20.652		1.25569		5	Std::sort - Ascending
+
+2860000		1.86804		0.212874		5	Std::sort - Constant
+
+2880000		1.1985		0.0420733		5	InsertionSort - Ascending
+
+2880000		1.62464		0.737193		5	InsertionSort - Constant
+
+2880000		27.0916		1.28353		5	QuickSort MoT - Ascending
+
+2880000		27.1987		0.750507		5	QuickSort MoT - Descending
+
+2880000		21.0184		1.98263		5	Std::sort - Ascending
+
+2880000		2.33816		0.888493		5	Std::sort - Constant
+
+2900000		1.2728		0.101424		5	InsertionSort - Ascending
+
+2900000		1.2443		0.0480587		5	InsertionSort - Constant
+
+2900000		26.1965		0.402939		5	QuickSort MoT - Ascending
+
+2900000		27.5035		0.977235		5	QuickSort MoT - Descending
+
+2900000		20.6337		1.43197		5	Std::sort - Ascending
+
+2900000		1.70646		0.108905		5	Std::sort - Constant
+
+2920000		1.22956		0.0749533		5	InsertionSort - Ascending
+
+2920000		1.21154		0.0229414		5	InsertionSort - Constant
+
+2920000		27.5868		2.57705		5	QuickSort MoT - Ascending
+
+2920000		28.4946		3.00269		5	QuickSort MoT - Descending
+
+2920000		20.7666		2.00152		5	Std::sort - Ascending
+
+2920000		1.67392		0.0894613		5	Std::sort - Constant
+
+2940000		1.21562		0.0278319		5	InsertionSort - Ascending
+
+2940000		1.229		0.0280598		5	InsertionSort - Constant
+
+2940000		27.7725		1.86974		5	QuickSort MoT - Ascending
+
+2940000		27.9882		1.58049		5	QuickSort MoT - Descending
+
+2940000		20.2563		0.887806		5	Std::sort - Ascending
+
+2940000		1.61544		0.0328963		5	Std::sort - Constant
+
+2960000		1.4098		0.245217		5	InsertionSort - Ascending
+
+2960000		1.28224		0.0986208		5	InsertionSort - Constant
+
+2960000		27.0884		0.842009		5	QuickSort MoT - Ascending
+
+2960000		28.2566		1.50793		5	QuickSort MoT - Descending
+
+2960000		21.1526		1.74151		5	Std::sort - Ascending
+
+2960000		1.62878		0.0148732		5	Std::sort - Constant
+
+2980000		1.34608		0.21542		5	InsertionSort - Ascending
+
+2980000		1.2596		0.0307308		5	InsertionSort - Constant
+
+2980000		26.6628		0.330877		5	QuickSort MoT - Ascending
+
+2980000		28.1864		1.72431		5	QuickSort MoT - Descending
+
+2980000		20.9307		1.03364		5	Std::sort - Ascending
+
+2980000		1.68866		0.0585219		5	Std::sort - Constant
+
+3000000		1.37412		0.155219		5	InsertionSort - Ascending
+
+3000000		1.2799		0.0547293		5	InsertionSort - Constant
+
+3000000		27.7998		2.20944		5	QuickSort MoT - Ascending
+
+3000000		28.2504		1.226		5	QuickSort MoT - Descending
+
+3000000		21.5128		1.50597		5	Std::sort - Ascending
+
+3000000		1.64858		0.0172756		5	Std::sort - Constant
+
+3020000		1.25448		0.0158982		5	InsertionSort - Ascending
+
+3020000		1.27978		0.00886803		5	InsertionSort - Constant
+
+3020000		27.8526		0.608427		5	QuickSort MoT - Ascending
+
+3020000		29.1351		2.55804		5	QuickSort MoT - Descending
+
+3020000		21.284		0.849205		5	Std::sort - Ascending
+
+3020000		1.68822		0.0902778		5	Std::sort - Constant
+
+3040000		1.32216		0.115655		5	InsertionSort - Ascending
+
+3040000		1.37306		0.174894		5	InsertionSort - Constant
+
+3040000		29.836		1.89687		5	QuickSort MoT - Ascending
+
+3040000		28.8329		0.572666		5	QuickSort MoT - Descending
+
+3040000		21.3483		2.04582		5	Std::sort - Ascending
+
+3040000		1.75568		0.157847		5	Std::sort - Constant
+
+3060000		1.38208		0.172593		5	InsertionSort - Ascending
+
+3060000		1.55356		0.572242		5	InsertionSort - Constant
+
+3060000		28.8541		1.65731		5	QuickSort MoT - Ascending
+
+3060000		29.9766		2.54131		5	QuickSort MoT - Descending
+
+3060000		20.8334		0.624917		5	Std::sort - Ascending
+
+3060000		2.1573		0.748332		5	Std::sort - Constant
+
+3080000		1.3749		0.118485		5	InsertionSort - Ascending
+
+3080000		1.26488		0.0318563		5	InsertionSort - Constant
+
+3080000		29.5275		2.57648		5	QuickSort MoT - Ascending
+
+3080000		30.1408		2.86913		5	QuickSort MoT - Descending
+
+3080000		20.6479		0.239807		5	Std::sort - Ascending
+
+3080000		1.724		0.0519107		5	Std::sort - Constant
+
+3100000		1.31106		0.0394315		5	InsertionSort - Ascending
+
+3100000		1.34834		0.0657662		5	InsertionSort - Constant
+
+3100000		29.0417		1.16078		5	QuickSort MoT - Ascending
+
+3100000		29.8947		1.31995		5	QuickSort MoT - Descending
+
+3100000		21.9981		1.36171		5	Std::sort - Ascending
+
+3100000		1.72086		0.0211029		5	Std::sort - Constant
+
+3120000		1.4066		0.115893		5	InsertionSort - Ascending
+
+3120000		1.56862		0.178945		5	InsertionSort - Constant
+
+3120000		29.1885		1.18372		5	QuickSort MoT - Ascending
+
+3120000		29.2789		0.99332		5	QuickSort MoT - Descending
+
+3120000		21.1048		0.553124		5	Std::sort - Ascending
+
+3120000		2.09886		0.426349		5	Std::sort - Constant
+
+3140000		1.30834		0.0256471		5	InsertionSort - Ascending
+
+3140000		1.34222		0.0243173		5	InsertionSort - Constant
+
+3140000		28.8356		0.98449		5	QuickSort MoT - Ascending
+
+3140000		29.5106		1.0716		5	QuickSort MoT - Descending
+
+3140000		21.637		0.84379		5	Std::sort - Ascending
+
+3140000		1.7626		0.0847295		5	Std::sort - Constant
+
+3160000		1.3828		0.114296		5	InsertionSort - Ascending
+
+3160000		1.35732		0.0622641		5	InsertionSort - Constant
+
+3160000		28.8974		1.05764		5	QuickSort MoT - Ascending
+
+3160000		29.6815		0.720744		5	QuickSort MoT - Descending
+
+3160000		22.4604		1.96822		5	Std::sort - Ascending
+
+3160000		1.75012		0.00870844		5	Std::sort - Constant
+
+3180000		1.3711		0.0800647		5	InsertionSort - Ascending
+
+3180000		1.67632		0.738799		5	InsertionSort - Constant
+
+3180000		29.4949		1.34303		5	QuickSort MoT - Ascending
+
+3180000		30.7754		2.71242		5	QuickSort MoT - Descending
+
+3180000		21.443		0.5343		5	Std::sort - Ascending
+
+3180000		1.8151		0.136078		5	Std::sort - Constant
+
+3200000		1.36634		0.0403298		5	InsertionSort - Ascending
+
+3200000		1.34592		0.0190786		5	InsertionSort - Constant
+
+3200000		30.0754		1.5894		5	QuickSort MoT - Ascending
+
+3200000		30.3648		1.80853		5	QuickSort MoT - Descending
+
+3200000		21.2893		0.537105		5	Std::sort - Ascending
+
+3200000		1.79764		0.0618948		5	Std::sort - Constant
+
+3220000		1.46026		0.0941404		5	InsertionSort - Ascending
+
+3220000		1.72398		0.679066		5	InsertionSort - Constant
+
+3220000		29.3929		2.4236		5	QuickSort MoT - Ascending
+
+3220000		29.6355		1.91208		5	QuickSort MoT - Descending
+
+3220000		22.3559		1.82355		5	Std::sort - Ascending
+
+3220000		1.8806		0.236266		5	Std::sort - Constant
+
+3240000		1.74808		0.536316		5	InsertionSort - Ascending
+
+3240000		1.42022		0.107086		5	InsertionSort - Constant
+
+3240000		29.0452		0.881059		5	QuickSort MoT - Ascending
+
+3240000		31.6651		2.28455		5	QuickSort MoT - Descending
+
+3240000		23.1306		2.06019		5	Std::sort - Ascending
+
+3240000		1.92916		0.225705		5	Std::sort - Constant
+
+3260000		1.4009		0.0890833		5	InsertionSort - Ascending
+
+3260000		1.41632		0.0730502		5	InsertionSort - Constant
+
+3260000		29.2445		0.638535		5	QuickSort MoT - Ascending
+
+3260000		31.0224		2.72656		5	QuickSort MoT - Descending
+
+3260000		21.5202		0.180832		5	Std::sort - Ascending
+
+3260000		1.90992		0.192066		5	Std::sort - Constant
+
+3280000		1.45186		0.151415		5	InsertionSort - Ascending
+
+3280000		1.51894		0.186541		5	InsertionSort - Constant
+
+3280000		30.9402		1.13991		5	QuickSort MoT - Ascending
+
+3280000		30.5381		1.18393		5	QuickSort MoT - Descending
+
+3280000		21.7189		0.484627		5	Std::sort - Ascending
+
+3280000		1.86882		0.125981		5	Std::sort - Constant
+
+3300000		1.45236		0.115729		5	InsertionSort - Ascending
+
+3300000		1.388		0.0386298		5	InsertionSort - Constant
+
+3300000		30.2764		1.35626		5	QuickSort MoT - Ascending
+
+3300000		30.7858		0.60121		5	QuickSort MoT - Descending
+
+3300000		21.7771		0.3386		5	Std::sort - Ascending
+
+3300000		1.94538		0.207304		5	Std::sort - Constant
+
+3320000		1.44348		0.159879		5	InsertionSort - Ascending
+
+3320000		1.63484		0.345133		5	InsertionSort - Constant
+
+3320000		31.5896		2.86948		5	QuickSort MoT - Ascending
+
+3320000		30.7631		1.122		5	QuickSort MoT - Descending
+
+3320000		22.0063		0.622968		5	Std::sort - Ascending
+
+3320000		2.04142		0.214147		5	Std::sort - Constant
+
+3340000		1.42052		0.0955307		5	InsertionSort - Ascending
+
+3340000		1.40912		0.0402556		5	InsertionSort - Constant
+
+3340000		31.1949		1.78972		5	QuickSort MoT - Ascending
+
+3340000		30.4845		1.05157		5	QuickSort MoT - Descending
+
+3340000		22.0918		0.477765		5	Std::sort - Ascending
+
+3340000		1.85504		0.0135574		5	Std::sort - Constant
+
+3360000		1.53396		0.225272		5	InsertionSort - Ascending
+
+3360000		1.46374		0.0968941		5	InsertionSort - Constant
+
+3360000		30.0785		0.70957		5	QuickSort MoT - Ascending
+
+3360000		31.053		1.11568		5	QuickSort MoT - Descending
+
+3360000		23.027		1.96834		5	Std::sort - Ascending
+
+3360000		1.9352		0.128982		5	Std::sort - Constant
+
+3380000		1.47492		0.0893513		5	InsertionSort - Ascending
+
+3380000		1.50034		0.148531		5	InsertionSort - Constant
+
+3380000		31.4321		1.72436		5	QuickSort MoT - Ascending
+
+3380000		30.8442		0.402565		5	QuickSort MoT - Descending
+
+3380000		22.984		1.22682		5	Std::sort - Ascending
+
+3380000		1.97366		0.181928		5	Std::sort - Constant
+
+3400000		1.5872		0.212377		5	InsertionSort - Ascending
+
+3400000		1.4015		0.0485946		5	InsertionSort - Constant
+
+3400000		31.9897		1.50597		5	QuickSort MoT - Ascending
+
+3400000		34.7149		2.83281		5	QuickSort MoT - Descending
+
+3400000		22.6282		0.385045		5	Std::sort - Ascending
+
+3400000		2.0079		0.289722		5	Std::sort - Constant
+
+3420000		1.62828		0.269287		5	InsertionSort - Ascending
+
+3420000		1.42912		0.0169224		5	InsertionSort - Constant
+
+3420000		32.3166		1.75407		5	QuickSort MoT - Ascending
+
+3420000		32.3215		2.10248		5	QuickSort MoT - Descending
+
+3420000		24.9069		2.53344		5	Std::sort - Ascending
+
+3420000		1.88834		0.0799188		5	Std::sort - Constant
+
+3440000		1.82362		0.879007		5	InsertionSort - Ascending
+
+3440000		1.44066		0.093603		5	InsertionSort - Constant
+
+3440000		30.8812		1.00173		5	QuickSort MoT - Ascending
+
+3440000		31.9306		1.29741		5	QuickSort MoT - Descending
+
+3440000		24.0576		2.59216		5	Std::sort - Ascending
+
+3440000		1.918		0.0246491		5	Std::sort - Constant
+
+3460000		1.43682		0.0130091		5	InsertionSort - Ascending
+
+3460000		1.49468		0.121747		5	InsertionSort - Constant
+
+3460000		31.6543		2.06543		5	QuickSort MoT - Ascending
+
+3460000		31.6536		1.22506		5	QuickSort MoT - Descending
+
+3460000		24.3563		1.47489		5	Std::sort - Ascending
+
+3460000		1.91216		0.0128691		5	Std::sort - Constant
+
+3480000		1.45504		0.0204581		5	InsertionSort - Ascending
+
+3480000		1.44534		0.0373493		5	InsertionSort - Constant
+
+3480000		32.6043		3.00269		5	QuickSort MoT - Ascending
+
+3480000		31.7675		0.434753		5	QuickSort MoT - Descending
+
+3480000		24.2696		2.88858		5	Std::sort - Ascending
+
+3480000		1.94192		0.072742		5	Std::sort - Constant
+
+3500000		1.7339		0.24563		5	InsertionSort - Ascending
+
+3500000		1.77538		0.496639		5	InsertionSort - Constant
+
+3500000		31.9163		1.57338		5	QuickSort MoT - Ascending
+
+3500000		32.4179		1.44651		5	QuickSort MoT - Descending
+
+3500000		24.346		1.93867		5	Std::sort - Ascending
+
+3500000		2.30476		0.826039		5	Std::sort - Constant
+
+3520000		1.4892		0.0618853		5	InsertionSort - Ascending
+
+3520000		1.4861		0.00748164		5	InsertionSort - Constant
+
+3520000		31.8498		1.00998		5	QuickSort MoT - Ascending
+
+3520000		33.126		1.6891		5	QuickSort MoT - Descending
+
+3520000		23.9844		1.37662		5	Std::sort - Ascending
+
+3520000		1.95808		0.0460031		5	Std::sort - Constant
+
+3540000		1.8359		0.419704		5	InsertionSort - Ascending
+
+3540000		1.96796		0.774896		5	InsertionSort - Constant
+
+3540000		32.6558		2.21305		5	QuickSort MoT - Ascending
+
+3540000		33.7156		2.37084		5	QuickSort MoT - Descending
+
+3540000		25.0129		1.90712		5	Std::sort - Ascending
+
+3540000		2.16724		0.142392		5	Std::sort - Constant
+
+3560000		1.50806		0.0335108		5	InsertionSort - Ascending
+
+3560000		1.53294		0.0811898		5	InsertionSort - Constant
+
+3560000		32.8235		1.10559		5	QuickSort MoT - Ascending
+
+3560000		34.3549		3.19337		5	QuickSort MoT - Descending
+
+3560000		23.2853		0.454379		5	Std::sort - Ascending
+
+3560000		1.97574		0.0250548		5	Std::sort - Constant
+
+3580000		1.95962		1.03425		5	InsertionSort - Ascending
+
+3580000		1.54548		0.0346166		5	InsertionSort - Constant
+
+3580000		32.9393		0.925597		5	QuickSort MoT - Ascending
+
+3580000		33.8261		1.98147		5	QuickSort MoT - Descending
+
+3580000		24.4		1.37962		5	Std::sort - Ascending
+
+3580000		2.02822		0.0907884		5	Std::sort - Constant
+
+3600000		1.60014		0.15292		5	InsertionSort - Ascending
+
+3600000		1.48916		0.02779		5	InsertionSort - Constant
+
+3600000		32.7885		0.898611		5	QuickSort MoT - Ascending
+
+3600000		33.9796		0.983156		5	QuickSort MoT - Descending
+
+3600000		24.8707		1.99371		5	Std::sort - Ascending
+
+3600000		2.08116		0.239658		5	Std::sort - Constant
+
+3620000		1.50734		0.010634		5	InsertionSort - Ascending
+
+3620000		1.81652		0.435052		5	InsertionSort - Constant
+
+3620000		32.6774		0.440327		5	QuickSort MoT - Ascending
+
+3620000		34.4088		1.56344		5	QuickSort MoT - Descending
+
+3620000		24.4958		1.67925		5	Std::sort - Ascending
+
+3620000		2.50918		1.1242		5	Std::sort - Constant
+
+3640000		1.7582		0.508757		5	InsertionSort - Ascending
+
+3640000		1.54504		0.0842799		5	InsertionSort - Constant
+
+3640000		33.3388		1.36439		5	QuickSort MoT - Ascending
+
+3640000		34.9982		1.65384		5	QuickSort MoT - Descending
+
+3640000		24.3746		1.48429		5	Std::sort - Ascending
+
+3640000		2.0168		0.0676934		5	Std::sort - Constant
+
+3660000		1.52828		0.0188124		5	InsertionSort - Ascending
+
+3660000		1.5253		0.0283167		5	InsertionSort - Constant
+
+3660000		33.3833		1.57566		5	QuickSort MoT - Ascending
+
+3660000		34.765		1.94109		5	QuickSort MoT - Descending
+
+3660000		24.6072		1.71941		5	Std::sort - Ascending
+
+3660000		2.06086		0.0846802		5	Std::sort - Constant
+
+3680000		1.59684		0.0831102		5	InsertionSort - Ascending
+
+3680000		1.89342		0.8654		5	InsertionSort - Constant
+
+3680000		34.6614		2.86019		5	QuickSort MoT - Ascending
+
+3680000		35.1025		3.58815		5	QuickSort MoT - Descending
+
+3680000		24.3947		0.558976		5	Std::sort - Ascending
+
+3680000		2.17412		0.313507		5	Std::sort - Constant
+
+3700000		1.5836		0.0977422		5	InsertionSort - Ascending
+
+3700000		1.95712		0.606268		5	InsertionSort - Constant
+
+3700000		34.0247		1.23514		5	QuickSort MoT - Ascending
+
+3700000		33.6467		0.332726		5	QuickSort MoT - Descending
+
+3700000		25.302		1.63987		5	Std::sort - Ascending
+
+3700000		2.45942		0.755277		5	Std::sort - Constant
+
+3720000		1.61876		0.122588		5	InsertionSort - Ascending
+
+3720000		1.54798		0.0281252		5	InsertionSort - Constant
+
+3720000		33.653		1.45688		5	QuickSort MoT - Ascending
+
+3720000		35.2662		2.40478		5	QuickSort MoT - Descending
+
+3720000		25.2599		1.75052		5	Std::sort - Ascending
+
+3720000		2.05794		0.0265782		5	Std::sort - Constant
+
+3740000		1.69638		0.273869		5	InsertionSort - Ascending
+
+3740000		1.74382		0.151814		5	InsertionSort - Constant
+
+3740000		35.333		2.74457		5	QuickSort MoT - Ascending
+
+3740000		33.7848		0.576286		5	QuickSort MoT - Descending
+
+3740000		25.486		2.40316		5	Std::sort - Ascending
+
+3740000		2.18694		0.187008		5	Std::sort - Constant
+
+3760000		1.87344		0.350775		5	InsertionSort - Ascending
+
+3760000		1.55056		0.0356026		5	InsertionSort - Constant
+
+3760000		33.6257		1.294		5	QuickSort MoT - Ascending
+
+3760000		34.0203		0.962831		5	QuickSort MoT - Descending
+
+3760000		24.6031		0.815763		5	Std::sort - Ascending
+
+3760000		2.07072		0.0402204		5	Std::sort - Constant
+
+3780000		1.71252		0.103394		5	InsertionSort - Ascending
+
+3780000		1.63498		0.100821		5	InsertionSort - Constant
+
+3780000		34.6632		1.01841		5	QuickSort MoT - Ascending
+
+3780000		35.3246		1.166		5	QuickSort MoT - Descending
+
+3780000		26.278		2.71077		5	Std::sort - Ascending
+
+3780000		2.42428		0.451612		5	Std::sort - Constant
+
+3800000		1.67184		0.0615075		5	InsertionSort - Ascending
+
+3800000		1.778		0.380698		5	InsertionSort - Constant
+
+3800000		35.2383		0.941942		5	QuickSort MoT - Ascending
+
+3800000		35.8322		2.31394		5	QuickSort MoT - Descending
+
+3800000		25.9117		1.16314		5	Std::sort - Ascending
+
+3800000		2.6127		0.889921		5	Std::sort - Constant
+
+3820000		1.76246		0.388892		5	InsertionSort - Ascending
+
+3820000		1.66824		0.170939		5	InsertionSort - Constant
+
+3820000		35.3644		1.48999		5	QuickSort MoT - Ascending
+
+3820000		35.5507		1.11007		5	QuickSort MoT - Descending
+
+3820000		25.8854		1.65357		5	Std::sort - Ascending
+
+3820000		2.21646		0.190869		5	Std::sort - Constant
+
+3840000		1.79324		0.280532		5	InsertionSort - Ascending
+
+3840000		1.59734		0.037238		5	InsertionSort - Constant
+
+3840000		34.4171		0.900111		5	QuickSort MoT - Ascending
+
+3840000		35.9562		2.05382		5	QuickSort MoT - Descending
+
+3840000		24.9602		0.225498		5	Std::sort - Ascending
+
+3840000		2.11388		0.0153757		5	Std::sort - Constant
+
+3860000		1.96528		0.579831		5	InsertionSort - Ascending
+
+3860000		1.59462		0.0371284		5	InsertionSort - Constant
+
+3860000		36.0827		2.90763		5	QuickSort MoT - Ascending
+
+3860000		35.8282		1.08069		5	QuickSort MoT - Descending
+
+3860000		25.2554		0.661912		5	Std::sort - Ascending
+
+3860000		2.12226		0.0699601		5	Std::sort - Constant
+
+3880000		1.6019		0.0129014		5	InsertionSort - Ascending
+
+3880000		1.75524		0.130896		5	InsertionSort - Constant
+
+3880000		37.5232		2.40096		5	QuickSort MoT - Ascending
+
+3880000		36.4613		2.2632		5	QuickSort MoT - Descending
+
+3880000		26.1042		1.00542		5	Std::sort - Ascending
+
+3880000		2.21604		0.0809881		5	Std::sort - Constant
+
+3900000		1.63448		0.0168977		5	InsertionSort - Ascending
+
+3900000		1.72866		0.191512		5	InsertionSort - Constant
+
+3900000		36.2992		1.3432		5	QuickSort MoT - Ascending
+
+3900000		35.4501		0.712854		5	QuickSort MoT - Descending
+
+3900000		24.9071		0.118937		5	Std::sort - Ascending
+
+3900000		2.19982		0.108007		5	Std::sort - Constant
+
+3920000		1.62228		0.0302774		5	InsertionSort - Ascending
+
+3920000		1.65082		0.0586708		5	InsertionSort - Constant
+
+3920000		35.6086		1.07188		5	QuickSort MoT - Ascending
+
+3920000		36.2648		0.910215		5	QuickSort MoT - Descending
+
+3920000		25.9245		1.45929		5	Std::sort - Ascending
+
+3920000		2.1564		0.0218037		5	Std::sort - Constant
+
+3940000		1.64268		0.021445		5	InsertionSort - Ascending
+
+3940000		2.01676		0.378617		5	InsertionSort - Constant
+
+3940000		35.3494		0.601598		5	QuickSort MoT - Ascending
+
+3940000		36.0741		0.466682		5	QuickSort MoT - Descending
+
+3940000		27.6646		2.26551		5	Std::sort - Ascending
+
+3940000		2.618		0.393693		5	Std::sort - Constant
+
+3960000		1.65204		0.0332693		5	InsertionSort - Ascending
+
+3960000		1.71362		0.08072		5	InsertionSort - Constant
+
+3960000		35.8962		1.00876		5	QuickSort MoT - Ascending
+
+3960000		37.5161		1.39986		5	QuickSort MoT - Descending
+
+3960000		27.0153		1.92569		5	Std::sort - Ascending
+
+3960000		2.26874		0.141623		5	Std::sort - Constant
+
+3980000		1.9313		0.410309		5	InsertionSort - Ascending
+
+3980000		1.81744		0.139378		5	InsertionSort - Constant
+
+3980000		35.4241		1.53623		5	QuickSort MoT - Ascending
+
+3980000		36.5716		1.24298		5	QuickSort MoT - Descending
+
+3980000		26.4327		2.23326		5	Std::sort - Ascending
+
+3980000		2.47872		0.61254		5	Std::sort - Constant
+
+4000000		1.72636		0.152507		5	InsertionSort - Ascending
+
+4000000		2.13978		0.832262		5	InsertionSort - Constant
+
+4000000		35.2971		0.679177		5	QuickSort MoT - Ascending
+
+4000000		36.9521		2.11294		5	QuickSort MoT - Descending
+
+4000000		26.8357		1.73532		5	Std::sort - Ascending
+
+4000000		2.68162		0.728632		5	Std::sort - Constant
+
+4020000		1.67544		0.0241455		5	InsertionSort - Ascending
+
+4020000		1.68524		0.0122153		5	InsertionSort - Constant
+
+4020000		36.1883		1.63381		5	QuickSort MoT - Ascending
+
+4020000		37.5002		2.26016		5	QuickSort MoT - Descending
+
+4020000		27.3799		3.51841		5	Std::sort - Ascending
+
+4020000		2.388		0.31314		5	Std::sort - Constant
+
+4040000		1.90334		0.414295		5	InsertionSort - Ascending
+
+4040000		1.99786		0.581392		5	InsertionSort - Constant
+
+4040000		37.5591		2.48919		5	QuickSort MoT - Ascending
+
+4040000		37.3902		2.78543		5	QuickSort MoT - Descending
+
+4040000		25.8344		0.39024		5	Std::sort - Ascending
+
+4040000		2.31066		0.104973		5	Std::sort - Constant
+
+4060000		1.71026		0.0441886		5	InsertionSort - Ascending
+
+4060000		1.70984		0.0980281		5	InsertionSort - Constant
+
+4060000		36.7779		0.997487		5	QuickSort MoT - Ascending
+
+4060000		37.9047		1.92256		5	QuickSort MoT - Descending
+
+4060000		26.3085		0.470813		5	Std::sort - Ascending
+
+4060000		2.24486		0.0162007		5	Std::sort - Constant
+
+4080000		1.88326		0.155083		5	InsertionSort - Ascending
+
+4080000		1.67602		0.0437848		5	InsertionSort - Constant
+
+4080000		37.1142		1.88686		5	QuickSort MoT - Ascending
+
+4080000		38.7778		1.34204		5	QuickSort MoT - Descending
+
+4080000		26.2306		0.443265		5	Std::sort - Ascending
+
+4080000		2.28302		0.0496412		5	Std::sort - Constant
+
+4100000		2.2162		0.454336		5	InsertionSort - Ascending
+
+4100000		1.8067		0.204894		5	InsertionSort - Constant
+
+4100000		38.1528		1.48346		5	QuickSort MoT - Ascending
+
+4100000		39.094		2.22298		5	QuickSort MoT - Descending
+
+4100000		27.2397		1.19073		5	Std::sort - Ascending
+
+4100000		2.32318		0.12143		5	Std::sort - Constant
+
+4120000		1.85148		0.162993		5	InsertionSort - Ascending
+
+4120000		1.9574		0.437742		5	InsertionSort - Constant
+
+4120000		38.7363		1.58349		5	QuickSort MoT - Ascending
+
+4120000		39.3785		1.51448		5	QuickSort MoT - Descending
+
+4120000		28.153		1.86076		5	Std::sort - Ascending
+
+4120000		2.38166		0.161988		5	Std::sort - Constant
+
+4140000		2.1875		0.649841		5	InsertionSort - Ascending
+
+4140000		1.7677		0.0768036		5	InsertionSort - Constant
+
+4140000		38.8598		0.677282		5	QuickSort MoT - Ascending
+
+4140000		39.8382		2.1		5	QuickSort MoT - Descending
+
+4140000		28.2166		0.725179		5	Std::sort - Ascending
+
+4140000		2.2951		0.0124338		5	Std::sort - Constant
+
+4160000		2.10898		0.396773		5	InsertionSort - Ascending
+
+4160000		1.85612		0.122569		5	InsertionSort - Constant
+
+4160000		37.6747		1.02778		5	QuickSort MoT - Ascending
+
+4160000		39.2716		2.3695		5	QuickSort MoT - Descending
+
+4160000		27.4161		1.97258		5	Std::sort - Ascending
+
+4160000		2.33656		0.0978489		5	Std::sort - Constant
+
+4180000		2.05956		0.595616		5	InsertionSort - Ascending
+
+4180000		1.99964		0.265948		5	InsertionSort - Constant
+
+4180000		38.1445		1.95121		5	QuickSort MoT - Ascending
+
+4180000		39.5751		1.98758		5	QuickSort MoT - Descending
+
+4180000		28.3447		2.14507		5	Std::sort - Ascending
+
+4180000		2.72788		0.435101		5	Std::sort - Constant
+
+4200000		1.82498		0.0964222		5	InsertionSort - Ascending
+
+4200000		1.74692		0.0370277		5	InsertionSort - Constant
+
+4200000		38.3528		1.93652		5	QuickSort MoT - Ascending
+
+4200000		39.1051		2.1408		5	QuickSort MoT - Descending
+
+4200000		27.6631		1.37431		5	Std::sort - Ascending
+
+4200000		2.31326		0.0433275		5	Std::sort - Constant
+
+4220000		1.98264		0.309951		5	InsertionSort - Ascending
+
+4220000		2.19618		0.873592		5	InsertionSort - Constant
+
+4220000		37.877		1.711		5	QuickSort MoT - Ascending
+
+4220000		39.3203		1.33323		5	QuickSort MoT - Descending
+
+4220000		27.2263		0.766034		5	Std::sort - Ascending
+
+4220000		2.79436		0.614214		5	Std::sort - Constant
+
+4240000		1.87068		0.186123		5	InsertionSort - Ascending
+
+4240000		1.93128		0.20211		5	InsertionSort - Constant
+
+4240000		38.412		2.32556		5	QuickSort MoT - Ascending
+
+4240000		40.6398		1.66497		5	QuickSort MoT - Descending
+
+4240000		27.7206		1.3761		5	Std::sort - Ascending
+
+4240000		2.37578		0.0770963		5	Std::sort - Constant
+
+4260000		1.79428		0.0589893		5	InsertionSort - Ascending
+
+4260000		1.80224		0.042215		5	InsertionSort - Constant
+
+4260000		37.5727		1.6303		5	QuickSort MoT - Ascending
+
+4260000		39.5282		2.30368		5	QuickSort MoT - Descending
+
+4260000		28.1466		0.919109		5	Std::sort - Ascending
+
+4260000		2.32374		0.0382616		5	Std::sort - Constant
+
+4280000		1.77146		0.042161		5	InsertionSort - Ascending
+
+4280000		2.02742		0.118483		5	InsertionSort - Constant
+
+4280000		40.0048		3.56259		5	QuickSort MoT - Ascending
+
+4280000		39.2339		1.45834		5	QuickSort MoT - Descending
+
+4280000		28.032		1.50297		5	Std::sort - Ascending
+
+4280000		2.52212		0.0240035		5	Std::sort - Constant
+
+4300000		1.9427		0.0983979		5	InsertionSort - Ascending
+
+4300000		1.79486		0.0420783		5	InsertionSort - Constant
+
+4300000		39.7671		1.44278		5	QuickSort MoT - Ascending
+
+4300000		40.3864		2.96378		5	QuickSort MoT - Descending
+
+4300000		29.5157		2.12029		5	Std::sort - Ascending
+
+4300000		2.41568		0.0846294		5	Std::sort - Constant
+
+4320000		1.79094		0.02277		5	InsertionSort - Ascending
+
+4320000		1.8427		0.0987294		5	InsertionSort - Constant
+
+4320000		37.9781		0.24123		5	QuickSort MoT - Ascending
+
+4320000		39.7488		2.03407		5	QuickSort MoT - Descending
+
+4320000		29.1603		1.85037		5	Std::sort - Ascending
+
+4320000		2.36994		0.0316667		5	Std::sort - Constant
+
+4340000		1.93524		0.161384		5	InsertionSort - Ascending
+
+4340000		1.82768		0.0481631		5	InsertionSort - Constant
+
+4340000		38.95		0.859124		5	QuickSort MoT - Ascending
+
+4340000		40.3147		1.94197		5	QuickSort MoT - Descending
+
+4340000		29.5446		1.50171		5	Std::sort - Ascending
+
+4340000		2.43204		0.0483112		5	Std::sort - Constant
+
+4360000		1.86058		0.076252		5	InsertionSort - Ascending
+
+4360000		1.87538		0.122805		5	InsertionSort - Constant
+
+4360000		39.0642		1.90399		5	QuickSort MoT - Ascending
+
+4360000		39.8788		1.72808		5	QuickSort MoT - Descending
+
+4360000		31.9167		2.69963		5	Std::sort - Ascending
+
+4360000		2.44428		0.0824589		5	Std::sort - Constant
+
+4380000		1.86268		0.118918		5	InsertionSort - Ascending
+
+4380000		1.87362		0.0744405		5	InsertionSort - Constant
+
+4380000		39.3969		1.32249		5	QuickSort MoT - Ascending
+
+4380000		41.0336		2.59773		5	QuickSort MoT - Descending
+
+4380000		31.1768		3.02525		5	Std::sort - Ascending
+
+4380000		2.4166		0.0452262		5	Std::sort - Constant
+
+4400000		1.96336		0.225094		5	InsertionSort - Ascending
+
+4400000		1.8213		0.0421198		5	InsertionSort - Constant
+
+4400000		38.8952		1.2104		5	QuickSort MoT - Ascending
+
+4400000		39.7149		0.950795		5	QuickSort MoT - Descending
+
+4400000		32.207		2.2797		5	Std::sort - Ascending
+
+4400000		2.42948		0.0269664		5	Std::sort - Constant
+
+4420000		1.97654		0.142974		5	InsertionSort - Ascending
+
+4420000		1.91838		0.0882686		5	InsertionSort - Constant
+
+4420000		39.7184		1.79731		5	QuickSort MoT - Ascending
+
+4420000		40.9665		2.15015		5	QuickSort MoT - Descending
+
+4420000		32.5417		1.642		5	Std::sort - Ascending
+
+4420000		2.42672		0.0307892		5	Std::sort - Constant
+
+4440000		1.859		0.0448618		5	InsertionSort - Ascending
+
+4440000		2.19588		0.673492		5	InsertionSort - Constant
+
+4440000		40.6282		1.94551		5	QuickSort MoT - Ascending
+
+4440000		41.1468		0.65704		5	QuickSort MoT - Descending
+
+4440000		33.3104		1.30756		5	Std::sort - Ascending
+
+4440000		2.69074		0.524792		5	Std::sort - Constant
+
+4460000		2.05688		0.287534		5	InsertionSort - Ascending
+
+4460000		1.8678		0.0597855		5	InsertionSort - Constant
+
+4460000		40.3449		1.2763		5	QuickSort MoT - Ascending
+
+4460000		42.4486		2.16641		5	QuickSort MoT - Descending
+
+4460000		33.8744		2.29566		5	Std::sort - Ascending
+
+4460000		2.52648		0.0481058		5	Std::sort - Constant
+
+4480000		1.96166		0.128131		5	InsertionSort - Ascending
+
+4480000		1.92818		0.19457		5	InsertionSort - Constant
+
+4480000		42.1226		3.09427		5	QuickSort MoT - Ascending
+
+4480000		41.7974		1.41443		5	QuickSort MoT - Descending
+
+4480000		33.4264		1.4445		5	Std::sort - Ascending
+
+4480000		2.56562		0.0937595		5	Std::sort - Constant
+
+4500000		2.0156		0.141388		5	InsertionSort - Ascending
+
+4500000		1.90016		0.0259743		5	InsertionSort - Constant
+
+4500000		41.0805		1.20275		5	QuickSort MoT - Ascending
+
+4500000		42.6658		2.85701		5	QuickSort MoT - Descending
+
+4500000		33.4134		0.583051		5	Std::sort - Ascending
+
+4500000		2.50266		0.0581298		5	Std::sort - Constant
+
+4520000		1.99816		0.139325		5	InsertionSort - Ascending
+
+4520000		1.92402		0.0484663		5	InsertionSort - Constant
+
+4520000		42.8877		3.50366		5	QuickSort MoT - Ascending
+
+4520000		43.4559		3.42786		5	QuickSort MoT - Descending
+
+4520000		32.8656		0.790175		5	Std::sort - Ascending
+
+4520000		2.5721		0.12008		5	Std::sort - Constant
+
+4540000		2.0723		0.290187		5	InsertionSort - Ascending
+
+4540000		2.04112		0.190869		5	InsertionSort - Constant
+
+4540000		41.5886		0.895124		5	QuickSort MoT - Ascending
+
+4540000		43.1992		2.10233		5	QuickSort MoT - Descending
+
+4540000		35.1564		2.34236		5	Std::sort - Ascending
+
+4540000		3.50172		1.59321		5	Std::sort - Constant
+
+4560000		2.03448		0.295196		5	InsertionSort - Ascending
+
+4560000		1.89624		0.0400661		5	InsertionSort - Constant
+
+4560000		42.0069		1.37805		5	QuickSort MoT - Ascending
+
+4560000		42.718		1.07153		5	QuickSort MoT - Descending
+
+4560000		36.0066		4.25617		5	Std::sort - Ascending
+
+4560000		2.55886		0.0848543		5	Std::sort - Constant
+
+4580000		1.9242		0.0634664		5	InsertionSort - Ascending
+
+4580000		1.96898		0.0673521		5	InsertionSort - Constant
+
+4580000		43.0649		1.90775		5	QuickSort MoT - Ascending
+
+4580000		44.1058		2.56519		5	QuickSort MoT - Descending
+
+4580000		34.5323		1.42342		5	Std::sort - Ascending
+
+4580000		2.52622		0.0256078		5	Std::sort - Constant
+
+4600000		2.02132		0.272082		5	InsertionSort - Ascending
+
+4600000		1.97646		0.12071		5	InsertionSort - Constant
+
+4600000		42.4333		2.00858		5	QuickSort MoT - Ascending
+
+4600000		43.0494		1.22416		5	QuickSort MoT - Descending
+
+4600000		34.0138		1.03116		5	Std::sort - Ascending
+
+4600000		2.52914		0.0570348		5	Std::sort - Constant
+
+4620000		2.15976		0.524158		5	InsertionSort - Ascending
+
+4620000		1.93		0.0667697		5	InsertionSort - Constant
+
+4620000		43.928		2.96688		5	QuickSort MoT - Ascending
+
+4620000		44.264		1.73434		5	QuickSort MoT - Descending
+
+4620000		33.749		0.803197		5	Std::sort - Ascending
+
+4620000		2.5405		0.0506692		5	Std::sort - Constant
+
+4640000		2.00626		0.191881		5	InsertionSort - Ascending
+
+4640000		2.07218		0.184409		5	InsertionSort - Constant
+
+4640000		42.3749		1.29887		5	QuickSort MoT - Ascending
+
+4640000		44.3506		1.44639		5	QuickSort MoT - Descending
+
+4640000		34.3158		1.26634		5	Std::sort - Ascending
+
+4640000		2.57032		0.0582796		5	Std::sort - Constant
+
+4660000		2.00318		0.0643662		5	InsertionSort - Ascending
+
+4660000		2.07886		0.261296		5	InsertionSort - Constant
+
+4660000		43.5858		3.06628		5	QuickSort MoT - Ascending
+
+4660000		43.5782		0.717828		5	QuickSort MoT - Descending
+
+4660000		34.4465		1.69303		5	Std::sort - Ascending
+
+4660000		2.62644		0.0541812		5	Std::sort - Constant
+
+4680000		2.11808		0.32504		5	InsertionSort - Ascending
+
+4680000		2.2456		0.2535		5	InsertionSort - Constant
+
+4680000		44.4422		2.69079		5	QuickSort MoT - Ascending
+
+4680000		45.0634		2.84635		5	QuickSort MoT - Descending
+
+4680000		35.6111		3.40701		5	Std::sort - Ascending
+
+4680000		2.89956		0.355089		5	Std::sort - Constant
+
+4700000		2.045		0.2239		5	InsertionSort - Ascending
+
+4700000		2.0324		0.119034		5	InsertionSort - Constant
+
+4700000		44.5856		2.2759		5	QuickSort MoT - Ascending
+
+4700000		45.5814		2.94609		5	QuickSort MoT - Descending
+
+4700000		34.4803		1.45814		5	Std::sort - Ascending
+
+4700000		2.58914		0.0517741		5	Std::sort - Constant
+
+4720000		2.01946		0.0953749		5	InsertionSort - Ascending
+
+4720000		1.94284		0.0627168		5	InsertionSort - Constant
+
+4720000		44.2537		2.49258		5	QuickSort MoT - Ascending
+
+4720000		45.1686		0.96668		5	QuickSort MoT - Descending
+
+4720000		35.0475		1.88736		5	Std::sort - Ascending
+
+4720000		2.64808		0.0989394		5	Std::sort - Constant
+
+4740000		2.18504		0.393051		5	InsertionSort - Ascending
+
+4740000		2.03152		0.0831997		5	InsertionSort - Constant
+
+4740000		43.8836		1.16934		5	QuickSort MoT - Ascending
+
+4740000		49.7544		3.64455		5	QuickSort MoT - Descending
+
+4740000		36.4901		1.7746		5	Std::sort - Ascending
+
+4740000		2.61978		0.0657674		5	Std::sort - Constant
+
+4760000		2.36644		0.717732		5	InsertionSort - Ascending
+
+4760000		2.19556		0.23012		5	InsertionSort - Constant
+
+4760000		45.2891		1.88631		5	QuickSort MoT - Ascending
+
+4760000		45.6976		0.958434		5	QuickSort MoT - Descending
+
+4760000		35.229		0.725868		5	Std::sort - Ascending
+
+4760000		2.82942		0.293834		5	Std::sort - Constant
+
+4780000		2.06284		0.117564		5	InsertionSort - Ascending
+
+4780000		2.37678		0.645604		5	InsertionSort - Constant
+
+4780000		45.9297		2.0421		5	QuickSort MoT - Ascending
+
+4780000		45.4468		1.12824		5	QuickSort MoT - Descending
+
+4780000		36.172		2.37854		5	Std::sort - Ascending
+
+4780000		2.93832		0.359831		5	Std::sort - Constant
+
+4800000		2.22742		0.296541		5	InsertionSort - Ascending
+
+4800000		2.27004		0.410822		5	InsertionSort - Constant
+
+4800000		45.3947		2.13712		5	QuickSort MoT - Ascending
+
+4800000		46.511		1.77906		5	QuickSort MoT - Descending
+
+4800000		35.2068		1.66142		5	Std::sort - Ascending
+
+4800000		2.61288		0.051377		5	Std::sort - Constant
+
+4820000		2.27556		0.684675		5	InsertionSort - Ascending
+
+4820000		2.30044		0.481476		5	InsertionSort - Constant
+
+4820000		45.348		1.31982		5	QuickSort MoT - Ascending
+
+4820000		45.5998		1.43986		5	QuickSort MoT - Descending
+
+4820000		34.577		1.33184		5	Std::sort - Ascending
+
+4820000		2.7166		0.149898		5	Std::sort - Constant
+
+4840000		2.02852		0.029257		5	InsertionSort - Ascending
+
+4840000		2.097		0.0659728		5	InsertionSort - Constant
+
+4840000		44.91		0.931788		5	QuickSort MoT - Ascending
+
+4840000		47.0166		1.64124		5	QuickSort MoT - Descending
+
+4840000		35.6834		2.28896		5	Std::sort - Ascending
+
+4840000		2.68638		0.026888		5	Std::sort - Constant
+
+4860000		2.13174		0.160872		5	InsertionSort - Ascending
+
+4860000		2.08756		0.0780437		5	InsertionSort - Constant
+
+4860000		47.521		2.56818		5	QuickSort MoT - Ascending
+
+4860000		45.9528		0.874029		5	QuickSort MoT - Descending
+
+4860000		37.0887		1.88648		5	Std::sort - Ascending
+
+4860000		2.67552		0.0324422		5	Std::sort - Constant
+
+4880000		2.5678		1.22233		5	InsertionSort - Ascending
+
+4880000		2.037		0.0536906		5	InsertionSort - Constant
+
+4880000		45.5805		1.17898		5	QuickSort MoT - Ascending
+
+4880000		47.6657		1.86956		5	QuickSort MoT - Descending
+
+4880000		36.4315		1.28286		5	Std::sort - Ascending
+
+4880000		2.70638		0.0501499		5	Std::sort - Constant
+
+4900000		2.0341		0.0175703		5	InsertionSort - Ascending
+
+4900000		2.0115		0.0722908		5	InsertionSort - Constant
+
+4900000		46.3015		1.3013		5	QuickSort MoT - Ascending
+
+4900000		47.9607		1.92633		5	QuickSort MoT - Descending
+
+4900000		36.3889		3.96158		5	Std::sort - Ascending
+
+4900000		2.73768		0.06004		5	Std::sort - Constant
+
+4920000		2.09932		0.104995		5	InsertionSort - Ascending
+
+4920000		2.147		0.27509		5	InsertionSort - Constant
+
+4920000		47.3999		2.94441		5	QuickSort MoT - Ascending
+
+4920000		46.9696		1.39432		5	QuickSort MoT - Descending
+
+4920000		35.1398		1.66288		5	Std::sort - Ascending
+
+4920000		2.71012		0.0344135		5	Std::sort - Constant
+
+4940000		2.2388		0.286017		5	InsertionSort - Ascending
+
+4940000		2.11154		0.0914428		5	InsertionSort - Constant
+
+4940000		46.0127		1.08899		5	QuickSort MoT - Ascending
+
+4940000		47.883		1.57344		5	QuickSort MoT - Descending
+
+4940000		36.9316		3.40145		5	Std::sort - Ascending
+
+4940000		2.78722		0.0930678		5	Std::sort - Constant
+
+4960000		2.19892		0.0948052		5	InsertionSort - Ascending
+
+4960000		2.47508		0.816282		5	InsertionSort - Constant
+
+4960000		47.1226		2.02835		5	QuickSort MoT - Ascending
+
+4960000		48.1691		1.49347		5	QuickSort MoT - Descending
+
+4960000		35.8045		0.962457		5	Std::sort - Ascending
+
+4960000		2.81548		0.224777		5	Std::sort - Constant
+
+4980000		2.06768		0.0554127		5	InsertionSort - Ascending
+
+4980000		2.08408		0.0469216		5	InsertionSort - Constant
+
+4980000		46.7286		1.64118		5	QuickSort MoT - Ascending
+
+4980000		47.5242		0.915315		5	QuickSort MoT - Descending
+
+4980000		35.768		1.83052		5	Std::sort - Ascending
+
+4980000		2.77754		0.0570118		5	Std::sort - Constant
+
+5000000		2.15522		0.117692		5	InsertionSort - Ascending
+
+5000000		2.1359		0.109418		5	InsertionSort - Constant
+
+5000000		46.4758		1.62677		5	QuickSort MoT - Ascending
+
+5000000		48.9745		1.22592		5	QuickSort MoT - Descending
+
+5000000		36.4775		1.66215		5	Std::sort - Ascending
+
+5000000		2.71662		0.0143298		5	Std::sort - Constant
+

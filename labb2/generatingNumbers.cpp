@@ -15,15 +15,17 @@ void generateDescending(iterator first, iterator last)
 
 void generateAscending(iterator first, iterator last)
 {
-	for (size_t i = 0; i != last-1-first; i++)
+	for (size_t i = 0; i != last-first; i++)
 	{
 		first[i] = i;
 	}
+	
+	
 }
 
 void generateRandom(iterator first, iterator last)
 {
-	int MY_RANGE_MAX = 100000;
+	int MY_RANGE_MAX = 1'000'000;
 	for (size_t i = 0; i != last-1-first; i++)
 	{
 		first[i] = (1.0 * rand() / RAND_MAX) * MY_RANGE_MAX;

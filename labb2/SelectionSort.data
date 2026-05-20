@@ -1,0 +1,161 @@
+N:		T[ms]		Stdev[ms]	  Samples 
+1000		1.0261		0.0548177		5	Selection Sort - Random
+
+1000		0.86856		0.0165124		5	SelectionSort - Ascending
+
+1000		0.86948		0.0150835		5	SelectionSort - Constant
+
+1000		0.85912		0.0116253		5	SelectionSort - Descending
+
+2000		3.5016		0.106459		5	Selection Sort - Random
+
+2000		3.82224		0.198524		5	SelectionSort - Ascending
+
+2000		3.74438		0.121449		5	SelectionSort - Constant
+
+2000		3.76812		0.111418		5	SelectionSort - Descending
+
+3000		8.15266		0.0823309		5	Selection Sort - Random
+
+3000		10.4406		3.53903		5	SelectionSort - Ascending
+
+3000		8.19428		0.148647		5	SelectionSort - Constant
+
+3000		8.72624		0.656596		5	SelectionSort - Descending
+
+4000		14.5571		0.351846		5	Selection Sort - Random
+
+4000		14.558		0.735767		5	SelectionSort - Ascending
+
+4000		15.1968		1.17902		5	SelectionSort - Constant
+
+4000		15.0689		0.720039		5	SelectionSort - Descending
+
+5000		22.5283		0.495192		5	Selection Sort - Random
+
+5000		22.4233		0.864725		5	SelectionSort - Ascending
+
+5000		23.4401		1.37896		5	SelectionSort - Constant
+
+5000		22.6677		0.77651		5	SelectionSort - Descending
+
+6000		32.4275		1.04218		5	Selection Sort - Random
+
+6000		29.6851		0.573827		5	SelectionSort - Ascending
+
+6000		29.8828		1.0285		5	SelectionSort - Constant
+
+6000		30.2931		1.75348		5	SelectionSort - Descending
+
+7000		40.3377		1.44558		5	Selection Sort - Random
+
+7000		41.835		2.68857		5	SelectionSort - Ascending
+
+7000		40.5011		1.03678		5	SelectionSort - Constant
+
+7000		40.0537		0.594296		5	SelectionSort - Descending
+
+8000		52.7774		1.13845		5	Selection Sort - Random
+
+8000		53.4186		2.23375		5	SelectionSort - Ascending
+
+8000		53.3731		1.59253		5	SelectionSort - Constant
+
+8000		52.2073		1.03149		5	SelectionSort - Descending
+
+9000		67.8771		1.85995		5	Selection Sort - Random
+
+9000		67.0277		1.76726		5	SelectionSort - Ascending
+
+9000		68.648		2.67431		5	SelectionSort - Constant
+
+9000		67.3321		1.60755		5	SelectionSort - Descending
+
+10000		83.1515		1.61209		5	Selection Sort - Random
+
+10000		81.8463		0.891206		5	SelectionSort - Ascending
+
+10000		82.6885		1.96879		5	SelectionSort - Constant
+
+10000		83.8313		2.12009		5	SelectionSort - Descending
+
+11000		99.8199		0.959399		5	Selection Sort - Random
+
+11000		100.099		2.74462		5	SelectionSort - Ascending
+
+11000		99.614		1.65256		5	SelectionSort - Constant
+
+11000		103.77		3.12908		5	SelectionSort - Descending
+
+12000		122.44		2.59024		5	Selection Sort - Random
+
+12000		121.103		2.80259		5	SelectionSort - Ascending
+
+12000		117.874		0.645102		5	SelectionSort - Constant
+
+12000		118.999		1.47727		5	SelectionSort - Descending
+
+13000		142.599		3.15909		5	Selection Sort - Random
+
+13000		142.917		1.51002		5	SelectionSort - Ascending
+
+13000		139.288		2.67445		5	SelectionSort - Constant
+
+13000		137.733		1.0045		5	SelectionSort - Descending
+
+14000		161.188		3.5264		5	Selection Sort - Random
+
+14000		161.513		1.75231		5	SelectionSort - Ascending
+
+14000		161.159		2.11971		5	SelectionSort - Constant
+
+14000		163.648		2.99614		5	SelectionSort - Descending
+
+15000		185.463		3.6153		5	Selection Sort - Random
+
+15000		186.293		2.24653		5	SelectionSort - Ascending
+
+15000		184.755		1.3863		5	SelectionSort - Constant
+
+15000		183.868		1.65111		5	SelectionSort - Descending
+
+16000		211.742		3.15671		5	Selection Sort - Random
+
+16000		211.156		2.71598		5	SelectionSort - Ascending
+
+16000		212.54		4.63353		5	SelectionSort - Constant
+
+16000		212.165		3.61749		5	SelectionSort - Descending
+
+17000		237.213		2.61446		5	Selection Sort - Random
+
+17000		238.429		1.61849		5	SelectionSort - Ascending
+
+17000		244.825		3.85706		5	SelectionSort - Constant
+
+17000		244.714		6.82042		5	SelectionSort - Descending
+
+18000		270.375		4.61763		5	Selection Sort - Random
+
+18000		269.265		6.43749		5	SelectionSort - Ascending
+
+18000		268.334		4.41855		5	SelectionSort - Constant
+
+18000		268.698		3.17324		5	SelectionSort - Descending
+
+19000		299.119		2.78516		5	Selection Sort - Random
+
+19000		301.682		2.38662		5	SelectionSort - Ascending
+
+19000		297.452		3.46393		5	SelectionSort - Constant
+
+19000		295.04		0.955586		5	SelectionSort - Descending
+
+20000		331.415		3.23453		5	Selection Sort - Random
+
+20000		332.797		5.87384		5	SelectionSort - Ascending
+
+20000		329.163		3.66497		5	SelectionSort - Constant
+
+20000		330.279		4.70041		5	SelectionSort - Descending
+

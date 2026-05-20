@@ -11,21 +11,28 @@
 
 static void inorder(Node* root);
 static void printVec(std::vector<int>& vec);
-static double calculateAverage(const std::vector<double>& vec);
 
 template<typename Func>
-double benchmark(Func searchFunction);
+double benchmark(Func searchFunction, int iterations);
+
+struct Stats {
+	double average;
+	double stddev;
+};
+
+static Stats calculateStats(const std::vector<double>& vec);
+
 
 int main() {
 
 	srand(time(NULL));
-	const int ITERATIONS = 500;
+	const int ITERATIONS = 2000;
 	double savedTimeHash = 0;
 	double savedTimeLinear = 0;
 	double savedTimeBinary = 0;
 	double savedTimeBST = 0;
 
-	for (int power = 3; power < 17; power++) {
+	for (int power = 3; power < 25; power++) {
 
 
 		int N = std::pow(2, power) - 1;
@@ -53,7 +60,7 @@ int main() {
 		// SEARCHING
 
 		std::vector<double> hashVec;
-		std::vector<double> linearVec;
+		//std::vector<double> linearVec;
 		std::vector<double> binaryVec;
 		std::vector<double> bstVec;
 
@@ -70,51 +77,54 @@ int main() {
 
 			savedTimeHash = benchmark([&]() {
 				return myHashish.hashTableSearch(searchNumber);
-				});
+				}, ITERATIONS);
 
 			// LINEAR SEARCH
 			//linearSearch(myPrimeVec.begin(), myPrimeVec.end(), searchNumber);
 
+			/*
 			savedTimeLinear = benchmark([&]() {
 				return linearSearch(myPrimeVec.begin(), myPrimeVec.end(), searchNumber);
-				});
+				}, ITERATIONS);
+			*/
 
 			// BINARY SEARCH
 			//binarySearch(myPrimeVec.begin(), myPrimeVec.end(), searchNumber);
 
 			savedTimeBinary = benchmark([&]() {
 				return binarySearch(myPrimeVec.begin(), myPrimeVec.end(), searchNumber);
-				});
+				}, ITERATIONS);
 
 			// SEARCHING BST
 			//Node* target = binaryTreeSearch(root, searchNumber);
 
 			savedTimeBST = benchmark([&]() {
 				return binaryTreeSearch(root, searchNumber) != nullptr;
-				});
+				}, ITERATIONS);
 
 			hashVec.push_back(savedTimeHash);
-			linearVec.push_back(savedTimeLinear);
+			//linearVec.push_back(savedTimeLinear);
 			binaryVec.push_back(savedTimeBinary);
 			bstVec.push_back(savedTimeBST);
 
 
 		}
 
-		std::ofstream outFile("results.txt",std::ios::app);
+		std::ofstream outFile("resultsNoLinear.data", std::ios::app);
+
+		//Stats linearStats = calculateStats(linearVec);
+		Stats binaryStats = calculateStats(binaryVec);
+		Stats bstStats = calculateStats(bstVec);
+		Stats hashStats = calculateStats(hashVec);
 
 		outFile << "N = " << N << "\n";
+		//outFile << "Linear Search Avg: " << linearStats.average << " ns | StdDev: " << linearStats.stddev << " ns\n";
 
-		outFile << "Linear Search Avg: " << calculateAverage(linearVec) << " ns\n";
+		outFile << "Binary Search Avg: " << binaryStats.average << " ns | StdDev: " << binaryStats.stddev << " ns\n";
 
-		outFile << "Binary Search Avg: " << calculateAverage(binaryVec) << " ns\n";
+		outFile << "BST Search Avg: " << bstStats.average << " ns | StdDev: " << bstStats.stddev << " ns\n";
 
-		outFile << "BST Search Avg: " << calculateAverage(bstVec) << " ns\n";
-
-		outFile << "Hash Search Avg: " << calculateAverage(hashVec) << " ns\n\n";
-
-		outFile.close();
-
+		outFile << "Hash Search Avg: " << hashStats.average << " ns | StdDev: " << hashStats.stddev << " ns\n\n";
 
 
 
@@ -146,29 +156,48 @@ static void inorder(Node* root)
 }
 
 template<typename Func>
-double benchmark(Func searchFunction)
+double benchmark(Func searchFunction, int iterations)
 {
+	using namespace std::chrono;
 
-		auto start = std::chrono::high_resolution_clock::now();
+	long long totalTime = 0;
 
-		bool found = searchFunction();
+	volatile bool found; // prevents optimization
 
-		auto stop = std::chrono::high_resolution_clock::now();
+	for (int i = 0; i < iterations; ++i)
+	{
+		auto start = high_resolution_clock::now();
 
-		auto duration = std::chrono::duration_cast<std::chrono::nanoseconds> (stop - start);
+		found = searchFunction();
 
+		auto stop = high_resolution_clock::now();
 
-	return duration.count();
+		totalTime += duration_cast<nanoseconds>(stop - start).count();
+	}
+
+	return static_cast<double>(totalTime) / iterations;
 }
 
-static double calculateAverage(const std::vector<double>& vec)
+static Stats calculateStats(const std::vector<double>& vec)
 {
-	double total = 0;
+	double total = 0.0;
 
 	for (double t : vec)
 	{
 		total += t;
 	}
 
-	return total / vec.size();
+	double mean = total / vec.size();
+
+	double variance = 0.0;
+
+	for (double t : vec)
+	{
+		double diff = t - mean;
+		variance += diff * diff;
+	}
+
+	variance /= (vec.size() - 1);
+
+	return { mean, std::sqrt(variance) };
 }

@@ -1,0 +1,84 @@
+N = 7
+Linear Search Avg: 16.17 ns | StdDev: 9.22728 ns
+Binary Search Avg: 17.6404 ns | StdDev: 2.5273 ns
+BST Search Avg: 18.7124 ns | StdDev: 7.7898 ns
+Hash Search Avg: 17.4752 ns | StdDev: 4.94573 ns
+
+N = 15
+Linear Search Avg: 20.9808 ns | StdDev: 6.50582 ns
+Binary Search Avg: 23.8308 ns | StdDev: 9.39588 ns
+BST Search Avg: 25.4092 ns | StdDev: 15.6881 ns
+Hash Search Avg: 19.7488 ns | StdDev: 8.56323 ns
+
+N = 31
+Linear Search Avg: 26.6856 ns | StdDev: 8.43786 ns
+Binary Search Avg: 21.5748 ns | StdDev: 3.3195 ns
+BST Search Avg: 25.1428 ns | StdDev: 4.85742 ns
+Hash Search Avg: 17.1612 ns | StdDev: 3.15934 ns
+
+N = 63
+Linear Search Avg: 35.9552 ns | StdDev: 8.30021 ns
+Binary Search Avg: 23.2004 ns | StdDev: 3.80662 ns
+BST Search Avg: 27.66 ns | StdDev: 3.32563 ns
+Hash Search Avg: 16.9372 ns | StdDev: 1.76684 ns
+
+N = 127
+Linear Search Avg: 56.2616 ns | StdDev: 17.8304 ns
+Binary Search Avg: 26.6632 ns | StdDev: 4.5465 ns
+BST Search Avg: 33.2736 ns | StdDev: 6.2397 ns
+Hash Search Avg: 18.236 ns | StdDev: 4.26908 ns
+
+N = 255
+Linear Search Avg: 91.054 ns | StdDev: 28.6083 ns
+Binary Search Avg: 29.4652 ns | StdDev: 5.86101 ns
+BST Search Avg: 36.8416 ns | StdDev: 7.22261 ns
+Hash Search Avg: 17.9924 ns | StdDev: 3.48218 ns
+
+N = 511
+Linear Search Avg: 172.044 ns | StdDev: 55.2189 ns
+Binary Search Avg: 32.6896 ns | StdDev: 7.07758 ns
+BST Search Avg: 41.5972 ns | StdDev: 6.6124 ns
+Hash Search Avg: 20.0704 ns | StdDev: 7.99924 ns
+
+N = 1023
+Linear Search Avg: 283.279 ns | StdDev: 85.2947 ns
+Binary Search Avg: 32.8196 ns | StdDev: 5.06308 ns
+BST Search Avg: 43.0472 ns | StdDev: 5.97549 ns
+Hash Search Avg: 18.008 ns | StdDev: 3.52877 ns
+
+N = 2047
+Linear Search Avg: 918.582 ns | StdDev: 957.385 ns
+Binary Search Avg: 50.2912 ns | StdDev: 78.77 ns
+BST Search Avg: 67.0608 ns | StdDev: 112.116 ns
+Hash Search Avg: 23.5388 ns | StdDev: 27.0797 ns
+
+N = 4095
+Linear Search Avg: 1153.96 ns | StdDev: 390.645 ns
+Binary Search Avg: 38.2824 ns | StdDev: 6.49466 ns
+BST Search Avg: 52.2568 ns | StdDev: 6.91252 ns
+Hash Search Avg: 19.144 ns | StdDev: 6.37031 ns
+
+N = 8191
+Linear Search Avg: 2194.94 ns | StdDev: 660.061 ns
+Binary Search Avg: 40.7668 ns | StdDev: 7.95625 ns
+BST Search Avg: 56.8576 ns | StdDev: 18.0745 ns
+Hash Search Avg: 19.216 ns | StdDev: 5.9316 ns
+
+N = 16383
+Linear Search Avg: 3673.67 ns | StdDev: 1107.29 ns
+Binary Search Avg: 39.858 ns | StdDev: 7.75487 ns
+BST Search Avg: 53.8668 ns | StdDev: 8.42064 ns
+Hash Search Avg: 16.8216 ns | StdDev: 3.27965 ns
+
+N = 32767
+Linear Search Avg: 7036.12 ns | StdDev: 2594.85 ns
+Binary Search Avg: 41.8872 ns | StdDev: 7.41796 ns
+BST Search Avg: 56.8404 ns | StdDev: 9.88008 ns
+Hash Search Avg: 17 ns | StdDev: 3.35176 ns
+
+N = 65535
+Linear Search Avg: 14295 ns | StdDev: 4668.48 ns
+Binary Search Avg: 44.7164 ns | StdDev: 6.13862 ns
+BST Search Avg: 60.1064 ns | StdDev: 7.12013 ns
+Hash Search Avg: 16.916 ns | StdDev: 2.67858 ns
+

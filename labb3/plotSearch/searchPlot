@@ -1,0 +1,109 @@
+import re
+import numpy as np
+import matplotlib.pyplot as plt
+
+# File to read
+filename = "result.data"
+
+# Storage
+N_values = []
+
+linear_avg, linear_std = [], []
+binary_avg, binary_std = [], []
+bst_avg, bst_std = [], []
+hash_avg, hash_std = [], []
+
+# Regex patterns
+n_pattern = re.compile(r"N\s*=\s*(\d+)")
+search_pattern = re.compile(
+    r"(Linear|Binary|BST|Hash) Search Avg:\s*([\d.]+)\s*ns\s*\|\s*StdDev:\s*([\d.]+)\s*ns"
+)
+
+# Read file
+with open(filename, "r") as f:
+    for line in f:
+        line = line.strip()
+
+        # Match N value
+        n_match = n_pattern.match(line)
+        if n_match:
+            N_values.append(int(n_match.group(1)))
+            continue
+
+        # Match search result lines
+        s_match = search_pattern.match(line)
+        if s_match:
+            search_type = s_match.group(1)
+            avg = float(s_match.group(2))
+            std = float(s_match.group(3))
+
+            if search_type == "Linear":
+                linear_avg.append(avg)
+                linear_std.append(std)
+
+            elif search_type == "Binary":
+                binary_avg.append(avg)
+                binary_std.append(std)
+
+            elif search_type == "BST":
+                bst_avg.append(avg)
+                bst_std.append(std)
+
+            elif search_type == "Hash":
+                hash_avg.append(avg)
+                hash_std.append(std)
+
+# Convert to numpy arrays
+N = np.array(N_values)
+
+linear_avg = np.array(linear_avg)
+linear_std = np.array(linear_std)
+
+binary_avg = np.array(binary_avg)
+binary_std = np.array(binary_std)
+
+bst_avg = np.array(bst_avg)
+bst_std = np.array(bst_std)
+
+hash_avg = np.array(hash_avg)
+hash_std = np.array(hash_std)
+
+# Plot
+plt.figure(figsize=(12, 7))
+
+plt.errorbar(
+    N, linear_avg, yerr=linear_std,
+    label="Linear Search", marker="o", capsize=4
+)
+
+plt.errorbar(
+    N, binary_avg, yerr=binary_std,
+    label="Binary Search", marker="s", capsize=4
+)
+
+plt.errorbar(
+    N, bst_avg, yerr=bst_std,
+    label="BST Search", marker="^", capsize=4
+)
+
+plt.errorbar(
+    N, hash_avg, yerr=hash_std,
+    label="Hash Search", marker="d", capsize=4
+)
+
+# Log scale because N doubles
+plt.xscale("log", base=2)
+
+plt.xlabel("N (Input Size)")
+plt.ylabel("Average Search Time (ns)")
+plt.title("Search Algorithm Performance Comparison")
+
+plt.grid(True, which="both", linestyle="--", alpha=0.6)
+plt.legend()
+
+plt.tight_layout()
+
+# Optional: save image
+# plt.savefig("search_performance.png", dpi=300)
+
+plt.show()

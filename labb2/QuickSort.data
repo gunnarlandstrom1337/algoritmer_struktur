@@ -1,0 +1,601 @@
+N:		T[ms]		Stdev[ms]	  Samples 
+100000		5.25254		0.232961		5	QuickSort - Random
+
+100000		5.47902		0.214545		5	QuickSort MoT - Random
+
+100000		5.2142		0.096287		5	Std::sort - Random
+
+200000		11.1141		0.273344		5	QuickSort - Random
+
+200000		11.9423		0.819083		5	QuickSort MoT - Random
+
+200000		11.7418		0.533352		5	Std::sort - Random
+
+300000		18.0891		1.83566		5	QuickSort - Random
+
+300000		19.1267		1.03095		5	QuickSort MoT - Random
+
+300000		19.5249		2.68428		5	Std::sort - Random
+
+400000		23.833		0.817553		5	QuickSort - Random
+
+400000		24.2972		1.59794		5	QuickSort MoT - Random
+
+400000		25.0037		1.43446		5	Std::sort - Random
+
+500000		29.0598		1.62055		5	QuickSort - Random
+
+500000		28.6488		1.77175		5	QuickSort MoT - Random
+
+500000		29.097		3.12458		5	Std::sort - Random
+
+600000		32.8697		0.986421		5	QuickSort - Random
+
+600000		32.7391		0.474532		5	QuickSort MoT - Random
+
+600000		32.427		1.7162		5	Std::sort - Random
+
+700000		37.5099		0.656753		5	QuickSort - Random
+
+700000		38.9807		1.403		5	QuickSort MoT - Random
+
+700000		37.8429		1.61845		5	Std::sort - Random
+
+800000		43.5536		0.79235		5	QuickSort - Random
+
+800000		44.4742		1.02195		5	QuickSort MoT - Random
+
+800000		42.7054		1.07174		5	Std::sort - Random
+
+900000		49.3076		1.50446		5	QuickSort - Random
+
+900000		51.6374		2.98243		5	QuickSort MoT - Random
+
+900000		47.66		0.872025		5	Std::sort - Random
+
+1000000		55.8483		1.73143		5	QuickSort - Random
+
+1000000		56.0701		1.05494		5	QuickSort MoT - Random
+
+1000000		52.6436		1.30728		5	Std::sort - Random
+
+1100000		60.9277		1.24015		5	QuickSort - Random
+
+1100000		62.9109		2.90045		5	QuickSort MoT - Random
+
+1100000		59.6121		0.636646		5	Std::sort - Random
+
+1200000		67.0991		1.17694		5	QuickSort - Random
+
+1200000		67.1796		0.442002		5	QuickSort MoT - Random
+
+1200000		63.1094		1.35175		5	Std::sort - Random
+
+1300000		72.8816		1.64046		5	QuickSort - Random
+
+1300000		73.7911		1.47091		5	QuickSort MoT - Random
+
+1300000		68.2021		1.02576		5	Std::sort - Random
+
+1400000		80.3976		1.79698		5	QuickSort - Random
+
+1400000		80.8875		1.10913		5	QuickSort MoT - Random
+
+1400000		74.2087		2.94027		5	Std::sort - Random
+
+1500000		84.7332		0.99167		5	QuickSort - Random
+
+1500000		88.2253		2.96828		5	QuickSort MoT - Random
+
+1500000		79.3838		1.82189		5	Std::sort - Random
+
+1600000		92.694		1.49329		5	QuickSort - Random
+
+1600000		92.3758		1.79827		5	QuickSort MoT - Random
+
+1600000		86.3408		2.27399		5	Std::sort - Random
+
+1700000		98.5166		1.97842		5	QuickSort - Random
+
+1700000		98.0041		1.58972		5	QuickSort MoT - Random
+
+1700000		89.4415		1.70517		5	Std::sort - Random
+
+1800000		104.046		2.68827		5	QuickSort - Random
+
+1800000		104.449		1.39322		5	QuickSort MoT - Random
+
+1800000		96.0097		2.65113		5	Std::sort - Random
+
+1900000		109.727		1.36716		5	QuickSort - Random
+
+1900000		112.202		1.95246		5	QuickSort MoT - Random
+
+1900000		99.021		1.10059		5	Std::sort - Random
+
+2000000		118.641		3.59912		5	QuickSort - Random
+
+2000000		117.237		1.13662		5	QuickSort MoT - Random
+
+2000000		104.212		0.979122		5	Std::sort - Random
+
+2100000		124.438		1.55989		5	QuickSort - Random
+
+2100000		126.441		1.99987		5	QuickSort MoT - Random
+
+2100000		112.121		2.73162		5	Std::sort - Random
+
+2200000		128.007		2.45593		5	QuickSort - Random
+
+2200000		131.247		2.03891		5	QuickSort MoT - Random
+
+2200000		115.17		1.1384		5	Std::sort - Random
+
+2300000		136.651		1.98679		5	QuickSort - Random
+
+2300000		138.146		0.478398		5	QuickSort MoT - Random
+
+2300000		120.99		3.29668		5	Std::sort - Random
+
+2400000		144.033		5.19767		5	QuickSort - Random
+
+2400000		144.182		4.10366		5	QuickSort MoT - Random
+
+2400000		126.114		2.40449		5	Std::sort - Random
+
+2500000		149.948		2.80847		5	QuickSort - Random
+
+2500000		149.601		2.54152		5	QuickSort MoT - Random
+
+2500000		130.226		1.58872		5	Std::sort - Random
+
+2600000		156.134		2.0066		5	QuickSort - Random
+
+2600000		156.581		0.670728		5	QuickSort MoT - Random
+
+2600000		135.614		1.95901		5	Std::sort - Random
+
+2700000		162.401		2.06653		5	QuickSort - Random
+
+2700000		163.839		1.03745		5	QuickSort MoT - Random
+
+2700000		140.781		1.44368		5	Std::sort - Random
+
+2800000		173.791		3.59651		5	QuickSort - Random
+
+2800000		170.355		2.44296		5	QuickSort MoT - Random
+
+2800000		146.378		2.07239		5	Std::sort - Random
+
+2900000		176.832		1.3737		5	QuickSort - Random
+
+2900000		178.416		4.02802		5	QuickSort MoT - Random
+
+2900000		150.734		1.92457		5	Std::sort - Random
+
+3000000		184.666		0.680341		5	QuickSort - Random
+
+3000000		181.545		1.49109		5	QuickSort MoT - Random
+
+3000000		157.286		2.55547		5	Std::sort - Random
+
+3100000		190.862		4.37543		5	QuickSort - Random
+
+3100000		190.994		2.71218		5	QuickSort MoT - Random
+
+3100000		160.485		2.17458		5	Std::sort - Random
+
+3200000		199.269		5.01628		5	QuickSort - Random
+
+3200000		198.177		4.20839		5	QuickSort MoT - Random
+
+3200000		166.711		2.5499		5	Std::sort - Random
+
+3300000		204.123		2.89111		5	QuickSort - Random
+
+3300000		204.344		2.06256		5	QuickSort MoT - Random
+
+3300000		174.064		3.42317		5	Std::sort - Random
+
+3400000		210.704		2.01154		5	QuickSort - Random
+
+3400000		210.714		1.48401		5	QuickSort MoT - Random
+
+3400000		176.605		1.73726		5	Std::sort - Random
+
+3500000		218.113		1.93168		5	QuickSort - Random
+
+3500000		218.693		3.87872		5	QuickSort MoT - Random
+
+3500000		183.474		2.52482		5	Std::sort - Random
+
+3600000		226.306		2.4665		5	QuickSort - Random
+
+3600000		227.23		2.69469		5	QuickSort MoT - Random
+
+3600000		188.933		1.26067		5	Std::sort - Random
+
+3700000		234.864		3.79776		5	QuickSort - Random
+
+3700000		231.349		4.56203		5	QuickSort MoT - Random
+
+3700000		193.717		2.80822		5	Std::sort - Random
+
+3800000		239.446		2.69778		5	QuickSort - Random
+
+3800000		241.453		5.31923		5	QuickSort MoT - Random
+
+3800000		199.362		3.46629		5	Std::sort - Random
+
+3900000		248.069		4.46976		5	QuickSort - Random
+
+3900000		242.851		2.81264		5	QuickSort MoT - Random
+
+3900000		205.754		3.90067		5	Std::sort - Random
+
+4000000		254.588		2.80465		5	QuickSort - Random
+
+4000000		256.566		4.86453		5	QuickSort MoT - Random
+
+4000000		210.769		2.91067		5	Std::sort - Random
+
+4100000		260.181		2.14067		5	QuickSort - Random
+
+4100000		261.06		10.1794		5	QuickSort MoT - Random
+
+4100000		213.092		1.85786		5	Std::sort - Random
+
+4200000		270.822		6.27613		5	QuickSort - Random
+
+4200000		268.498		2.76362		5	QuickSort MoT - Random
+
+4200000		218.131		2.5147		5	Std::sort - Random
+
+4300000		278.974		6.24212		5	QuickSort - Random
+
+4300000		274.642		2.97242		5	QuickSort MoT - Random
+
+4300000		224.014		2.86325		5	Std::sort - Random
+
+4400000		280.664		4.26784		5	QuickSort - Random
+
+4400000		281.116		2.68771		5	QuickSort MoT - Random
+
+4400000		228.945		2.136		5	Std::sort - Random
+
+4500000		291.103		4.00778		5	QuickSort - Random
+
+4500000		287.913		1.50131		5	QuickSort MoT - Random
+
+4500000		236.79		2.75339		5	Std::sort - Random
+
+4600000		300.285		4.90268		5	QuickSort - Random
+
+4600000		294.158		1.7009		5	QuickSort MoT - Random
+
+4600000		239.046		5.41604		5	Std::sort - Random
+
+4700000		309.032		4.96819		5	QuickSort - Random
+
+4700000		300.921		3.59557		5	QuickSort MoT - Random
+
+4700000		243.083		1.90099		5	Std::sort - Random
+
+4800000		312.387		5.8033		5	QuickSort - Random
+
+4800000		311.607		3.16265		5	QuickSort MoT - Random
+
+4800000		248.875		2.79793		5	Std::sort - Random
+
+4900000		319.906		1.14219		5	QuickSort - Random
+
+4900000		321.224		3.46671		5	QuickSort MoT - Random
+
+4900000		257.211		4.34835		5	Std::sort - Random
+
+5000000		329.703		5.76923		5	QuickSort - Random
+
+5000000		330.836		5.33159		5	QuickSort MoT - Random
+
+5000000		266.628		3.92542		5	Std::sort - Random
+
+5100000		338.316		6.3229		5	QuickSort - Random
+
+5100000		335.293		4.66087		5	QuickSort MoT - Random
+
+5100000		269.448		3.20298		5	Std::sort - Random
+
+5200000		346.588		6.4466		5	QuickSort - Random
+
+5200000		339.214		1.38679		5	QuickSort MoT - Random
+
+5200000		272.371		4.70532		5	Std::sort - Random
+
+5300000		357.137		4.99667		5	QuickSort - Random
+
+5300000		347.911		3.52636		5	QuickSort MoT - Random
+
+5300000		277.313		5.30783		5	Std::sort - Random
+
+5400000		362.719		9.03323		5	QuickSort - Random
+
+5400000		359.446		5.67358		5	QuickSort MoT - Random
+
+5400000		280.819		4.49534		5	Std::sort - Random
+
+5500000		366.152		2.72595		5	QuickSort - Random
+
+5500000		363.939		4.59498		5	QuickSort MoT - Random
+
+5500000		285.148		2.33783		5	Std::sort - Random
+
+5600000		381.359		3.3141		5	QuickSort - Random
+
+5600000		372.521		6.03158		5	QuickSort MoT - Random
+
+5600000		292.144		4.22017		5	Std::sort - Random
+
+5700000		387.317		1.30672		5	QuickSort - Random
+
+5700000		376.578		2.51587		5	QuickSort MoT - Random
+
+5700000		295.596		3.67445		5	Std::sort - Random
+
+5800000		393.751		5.60694		5	QuickSort - Random
+
+5800000		386.559		2.12674		5	QuickSort MoT - Random
+
+5800000		304.054		2.79511		5	Std::sort - Random
+
+5900000		404.637		3.60365		5	QuickSort - Random
+
+5900000		395.339		2.2189		5	QuickSort MoT - Random
+
+5900000		305.269		4.065		5	Std::sort - Random
+
+6000000		408.671		4.02674		5	QuickSort - Random
+
+6000000		401.148		2.07054		5	QuickSort MoT - Random
+
+6000000		315.237		4.50983		5	Std::sort - Random
+
+6100000		417.804		4.60492		5	QuickSort - Random
+
+6100000		407.653		5.65601		5	QuickSort MoT - Random
+
+6100000		315.746		4.30894		5	Std::sort - Random
+
+6200000		425.285		4.98126		5	QuickSort - Random
+
+6200000		422.123		6.86724		5	QuickSort MoT - Random
+
+6200000		321.842		5.08871		5	Std::sort - Random
+
+6300000		438.01		6.78478		5	QuickSort - Random
+
+6300000		428.361		7.53505		5	QuickSort MoT - Random
+
+6300000		327.466		3.50928		5	Std::sort - Random
+
+6400000		446.134		6.87569		5	QuickSort - Random
+
+6400000		435.869		6.58186		5	QuickSort MoT - Random
+
+6400000		332.339		4.03025		5	Std::sort - Random
+
+6500000		451.07		3.71467		5	QuickSort - Random
+
+6500000		442.133		6.84968		5	QuickSort MoT - Random
+
+6500000		337.787		5.11488		5	Std::sort - Random
+
+6600000		459.314		3.25571		5	QuickSort - Random
+
+6600000		451.992		5.14341		5	QuickSort MoT - Random
+
+6600000		341.36		4.90651		5	Std::sort - Random
+
+6700000		467.931		5.03336		5	QuickSort - Random
+
+6700000		461.482		4.23559		5	QuickSort MoT - Random
+
+6700000		348.571		2.14253		5	Std::sort - Random
+
+6800000		477.922		7.46116		5	QuickSort - Random
+
+6800000		467.665		5.8616		5	QuickSort MoT - Random
+
+6800000		359.912		13.66		5	Std::sort - Random
+
+6900000		489.793		7.14456		5	QuickSort - Random
+
+6900000		486.362		13.253		5	QuickSort MoT - Random
+
+6900000		358.584		4.10466		5	Std::sort - Random
+
+7000000		493.592		4.5543		5	QuickSort - Random
+
+7000000		484.939		3.90607		5	QuickSort MoT - Random
+
+7000000		363.878		4.8956		5	Std::sort - Random
+
+7100000		499.524		5.55332		5	QuickSort - Random
+
+7100000		494.434		8.57474		5	QuickSort MoT - Random
+
+7100000		370.907		5.46853		5	Std::sort - Random
+
+7200000		510.715		5.5975		5	QuickSort - Random
+
+7200000		501.046		7.63217		5	QuickSort MoT - Random
+
+7200000		372.734		3.10234		5	Std::sort - Random
+
+7300000		518.816		3.39078		5	QuickSort - Random
+
+7300000		510.278		4.37871		5	QuickSort MoT - Random
+
+7300000		377.231		3.98326		5	Std::sort - Random
+
+7400000		532.246		7.63807		5	QuickSort - Random
+
+7400000		514.143		2.57947		5	QuickSort MoT - Random
+
+7400000		384.445		4.10117		5	Std::sort - Random
+
+7500000		540.712		8.51039		5	QuickSort - Random
+
+7500000		529.43		8.4094		5	QuickSort MoT - Random
+
+7500000		393.295		5.31784		5	Std::sort - Random
+
+7600000		570.45		26.7882		5	QuickSort - Random
+
+7600000		551.064		34.9003		5	QuickSort MoT - Random
+
+7600000		412.395		24.6387		5	Std::sort - Random
+
+7700000		618.972		8.34162		5	QuickSort - Random
+
+7700000		605.191		7.00906		5	QuickSort MoT - Random
+
+7700000		444.396		7.35058		5	Std::sort - Random
+
+7800000		606.987		19.9466		5	QuickSort - Random
+
+7800000		590.524		16.8654		5	QuickSort MoT - Random
+
+7800000		432.003		12.8485		5	Std::sort - Random
+
+7900000		603.333		29.6689		5	QuickSort - Random
+
+7900000		580.076		33.785		5	QuickSort MoT - Random
+
+7900000		423.257		10.8972		5	Std::sort - Random
+
+8000000		604.594		8.54205		5	QuickSort - Random
+
+8000000		581.814		9.56759		5	QuickSort MoT - Random
+
+8000000		421.481		4.27022		5	Std::sort - Random
+
+8100000		633.148		32.3234		5	QuickSort - Random
+
+8100000		616.505		36.9985		5	QuickSort MoT - Random
+
+8100000		454.5		23.9218		5	Std::sort - Random
+
+8200000		694.463		42.8105		5	QuickSort - Random
+
+8200000		668.559		40.0118		5	QuickSort MoT - Random
+
+8200000		474.228		24.694		5	Std::sort - Random
+
+8300000		696.618		33.436		5	QuickSort - Random
+
+8300000		670.187		39.8517		5	QuickSort MoT - Random
+
+8300000		484.267		16.6345		5	Std::sort - Random
+
+8400000		696.376		11.4898		5	QuickSort - Random
+
+8400000		673.834		11.4124		5	QuickSort MoT - Random
+
+8400000		489.962		4.47695		5	Std::sort - Random
+
+8500000		710.072		8.40795		5	QuickSort - Random
+
+8500000		686.21		7.32637		5	QuickSort MoT - Random
+
+8500000		492.208		4.2731		5	Std::sort - Random
+
+8600000		718.567		6.95431		5	QuickSort - Random
+
+8600000		697.721		3.51509		5	QuickSort MoT - Random
+
+8600000		501.989		7.06422		5	Std::sort - Random
+
+8700000		722.758		12.0486		5	QuickSort - Random
+
+8700000		706.578		14.4605		5	QuickSort MoT - Random
+
+8700000		505.008		8.72765		5	Std::sort - Random
+
+8800000		746.455		16.556		5	QuickSort - Random
+
+8800000		721.636		15.9288		5	QuickSort MoT - Random
+
+8800000		513.136		10.0848		5	Std::sort - Random
+
+8900000		756.439		7.75358		5	QuickSort - Random
+
+8900000		723.474		12.5415		5	QuickSort MoT - Random
+
+8900000		519.036		3.84596		5	Std::sort - Random
+
+9000000		773.039		8.53563		5	QuickSort - Random
+
+9000000		745.477		12.5736		5	QuickSort MoT - Random
+
+9000000		528.023		2.58755		5	Std::sort - Random
+
+9100000		780.87		8.28053		5	QuickSort - Random
+
+9100000		749.711		2.8712		5	QuickSort MoT - Random
+
+9100000		531.079		10.036		5	Std::sort - Random
+
+9200000		795.394		14.7723		5	QuickSort - Random
+
+9200000		765.412		16.4759		5	QuickSort MoT - Random
+
+9200000		536.629		8.43601		5	Std::sort - Random
+
+9300000		805.402		15.0215		5	QuickSort - Random
+
+9300000		781.098		23.5054		5	QuickSort MoT - Random
+
+9300000		548.558		10.8454		5	Std::sort - Random
+
+9400000		798.917		6.22983		5	QuickSort - Random
+
+9400000		768.303		6.10658		5	QuickSort MoT - Random
+
+9400000		542.93		2.95446		5	Std::sort - Random
+
+9500000		814.046		13.4082		5	QuickSort - Random
+
+9500000		798.28		13.7747		5	QuickSort MoT - Random
+
+9500000		557.457		11.1433		5	Std::sort - Random
+
+9600000		795.237		29.8139		5	QuickSort - Random
+
+9600000		757.928		35.9669		5	QuickSort MoT - Random
+
+9600000		533.893		31.793		5	Std::sort - Random
+
+9700000		770.823		8.43678		5	QuickSort - Random
+
+9700000		743.983		16.4628		5	QuickSort MoT - Random
+
+9700000		518.977		6.70563		5	Std::sort - Random
+
+9800000		784.872		11.875		5	QuickSort - Random
+
+9800000		754.641		9.9993		5	QuickSort MoT - Random
+
+9800000		533.911		12.8126		5	Std::sort - Random
+
+9900000		801.93		16.549		5	QuickSort - Random
+
+9900000		775.306		10.0309		5	QuickSort MoT - Random
+
+9900000		528.797		6.08439		5	Std::sort - Random
+
+10000000		825.027		36.1505		5	QuickSort - Random
+
+10000000		785.336		9.10768		5	QuickSort MoT - Random
+
+10000000		543.612		10.35		5	Std::sort - Random
+
